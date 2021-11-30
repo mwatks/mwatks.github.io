@@ -1,0 +1,50 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pcdch-cytodifferentiation-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"pcdch-cytodifferentiation-cs-1\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"pcdch-cytodifferentiation-cs-2\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"pcdch-cytodifferentiation-cs-3\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"pcdch-cytodifferentiation-cs-unknown\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">not-reported<a name=\"pcdch-cytodifferentiation-cs-not-reported\"> </a></td><td>description will go here</td></tr></table></div>"
+  },
+  "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs",
+  "version": "0.1.0",
+  "name": "pcdch-cytodifferentiation-cs",
+  "title": "PCDCH Cytodifferentiation",
+  "status": "active",
+  "date": "2021-11-30T11:37:05-07:00",
+  "contact": [
+    {
+      "name": "Michael Watkins",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "michaelwatkins@uchicago.edu"
+        }
+      ]
+    }
+  ],
+  "description": "PCDCH Cytodifferentiation",
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "1",
+      "display": "description will go here"
+    },
+    {
+      "code": "2",
+      "display": "description will go here"
+    },
+    {
+      "code": "3",
+      "display": "description will go here"
+    },
+    {
+      "code": "unknown",
+      "display": "description will go here"
+    },
+    {
+      "code": "not-reported",
+      "display": "description will go here"
+    }
+  ]
+}

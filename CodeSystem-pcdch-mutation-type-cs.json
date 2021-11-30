@@ -1,0 +1,46 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pcdch-mutation-type-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-mutation-type-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">somatic<a name=\"pcdch-mutation-type-cs-somatic\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">germline/constitutional<a name=\"pcdch-mutation-type-cs-germline.47constitutional\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"pcdch-mutation-type-cs-unknown\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">not-reported<a name=\"pcdch-mutation-type-cs-not-reported\"> </a></td><td>description will go here</td></tr></table></div>"
+  },
+  "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-mutation-type-cs",
+  "version": "0.1.0",
+  "name": "pcdch-mutation-type-cs",
+  "title": "PCDCH Mutation Types",
+  "status": "active",
+  "date": "2021-11-30T11:37:05-07:00",
+  "contact": [
+    {
+      "name": "Michael Watkins",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "michaelwatkins@uchicago.edu"
+        }
+      ]
+    }
+  ],
+  "description": "PCDCH Mutation Types",
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "somatic",
+      "display": "description will go here"
+    },
+    {
+      "code": "germline/constitutional",
+      "display": "description will go here"
+    },
+    {
+      "code": "unknown",
+      "display": "description will go here"
+    },
+    {
+      "code": "not-reported",
+      "display": "description will go here"
+    }
+  ]
+}

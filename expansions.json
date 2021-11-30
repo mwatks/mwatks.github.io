@@ -1,0 +1,855 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "81933536-8eeb-4876-8b97-5cc0ff7ba354",
+  "meta" : {
+    "lastUpdated" : "2021-11-30T11:37:05.059-07:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-mitoses-score-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-mitoses-score-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-mitoses-cs.html\">PCDCH Mitoses Scores v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-mitoses-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-mitoses-cs-1\"> </a><a href=\"CodeSystem-pcdch-mitoses-cs.html#pcdch-mitoses-cs-1\">1</a></td><td>0-9 Mitoses per 10 HPF</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-mitoses-cs-2\"> </a><a href=\"CodeSystem-pcdch-mitoses-cs.html#pcdch-mitoses-cs-2\">2</a></td><td>10-19 Mitoses per 10 HPF</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-mitoses-cs-3\"> </a><a href=\"CodeSystem-pcdch-mitoses-cs.html#pcdch-mitoses-cs-3\">3</a></td><td>&gt; 19 Mitoses per 10 HPF</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-mitoses-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-mitoses-cs.html#pcdch-mitoses-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-mitoses-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-mitoses-cs.html#pcdch-mitoses-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-mitoses-score-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-mitoses-score-vs",
+      "title" : "PCDCH Mitoses Scores ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Mitoses Scores ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:738a53fd-8c99-414e-9a4c-8575e2bd68e3",
+        "timestamp" : "2021-11-30T11:37:15-07:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs",
+          "code" : "1",
+          "display" : "0-9 Mitoses per 10 HPF"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs",
+          "code" : "2",
+          "display" : "10-19 Mitoses per 10 HPF"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs",
+          "code" : "3",
+          "display" : "> 19 Mitoses per 10 HPF"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-variant-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-genotyping-variant-type-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 10 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html\">PCDCH Genotyping Variant Types v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-variant-type-cs-substitution\"> </a><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-substitution\">substitution</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-variant-type-cs-deletion\"> </a><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-deletion\">deletion</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-variant-type-cs-duplication\"> </a><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-duplication\">duplication</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-variant-type-cs-insertion\"> </a><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-insertion\">insertion</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-variant-type-cs-inversion\"> </a><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-inversion\">inversion</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-variant-type-cs-frameshift\"> </a><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-frameshift\">frameshift</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-variant-type-cs-extension\"> </a><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-extension\">extension</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-variant-type-cs-other\"> </a><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-other\">other</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-variant-type-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-variant-type-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-variant-type-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-genotyping-variant-type-vs",
+      "title" : "PCDCH Genotyping Variant Type ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Genotyping Variant Type ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:1af37697-dedd-48d6-b67d-9c083f2068f4",
+        "timestamp" : "2021-11-30T11:37:15-07:00",
+        "total" : 10,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+          "code" : "substitution",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+          "code" : "deletion",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+          "code" : "duplication",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+          "code" : "insertion",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+          "code" : "inversion",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+          "code" : "frameshift",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+          "code" : "extension",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+          "code" : "other",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-analysis-classification-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-molecular-analysis-classification-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html\">PCDCH Molecular Analysis Classification v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-analysis-classification-cs-primary\"> </a><a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html#pcdch-molecular-analysis-classification-cs-primary\">primary</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-analysis-classification-cs-metastatic\"> </a><a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html#pcdch-molecular-analysis-classification-cs-metastatic\">metastatic</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-analysis-classification-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html#pcdch-molecular-analysis-classification-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-analysis-classification-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html#pcdch-molecular-analysis-classification-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-analysis-classification-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-molecular-analysis-classification-vs",
+      "title" : "PCDCH Molecular Analysis Classification ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Molecular Analysis Classification ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:69fa62ee-1f99-488f-a8b7-8da7aad94819",
+        "timestamp" : "2021-11-30T11:37:15-07:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs",
+          "code" : "primary",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs",
+          "code" : "metastatic",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-cytogenetic-analysis-type-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html\">PCDCH Cytogenetic Analysis Type v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-type-cs-karyotyping\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html#pcdch-cytogenetic-analysis-type-cs-karyotyping\">karyotyping</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-type-cs-FISH\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html#pcdch-cytogenetic-analysis-type-cs-FISH\">FISH</a></td><td>Fluorescence in situ hybridization</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-type-cs-CMA\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html#pcdch-cytogenetic-analysis-type-cs-CMA\">CMA</a></td><td>Chromosomal microarray analysis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-type-cs-CGH\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html#pcdch-cytogenetic-analysis-type-cs-CGH\">CGH</a></td><td>Comparative genomic hybridisation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-type-cs-aCGH\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html#pcdch-cytogenetic-analysis-type-cs-aCGH\">aCGH</a></td><td>Array comparative genomic hybridisation</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-type-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-cytogenetic-analysis-type-vs",
+      "title" : "PCDCH Cytogenetic Analysis Type ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Cytogenetic Analysis Type ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:e84c7df9-cf68-455a-ae9c-26a832d687d7",
+        "timestamp" : "2021-11-30T11:37:15-07:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
+          "code" : "karyotyping",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
+          "code" : "FISH",
+          "display" : "Fluorescence in situ hybridization"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
+          "code" : "CMA",
+          "display" : "Chromosomal microarray analysis"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
+          "code" : "CGH",
+          "display" : "Comparative genomic hybridisation"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
+          "code" : "aCGH",
+          "display" : "Array comparative genomic hybridisation"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-karyotype-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-karyotype-status-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-karyotype-status-cs.html\">PCDCH Karyotype Statuses v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-karyotype-status-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-karyotype-status-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-karyotype-status-cs-normal\"> </a><a href=\"CodeSystem-pcdch-karyotype-status-cs.html#pcdch-karyotype-status-cs-normal\">normal</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-karyotype-status-cs-abnormal\"> </a><a href=\"CodeSystem-pcdch-karyotype-status-cs.html#pcdch-karyotype-status-cs-abnormal\">abnormal</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-karyotype-status-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-karyotype-status-cs.html#pcdch-karyotype-status-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-karyotype-status-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-karyotype-status-cs.html#pcdch-karyotype-status-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-karyotype-status-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-karyotype-status-vs",
+      "title" : "PCDCH Karyotype Status ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Karyotype Status ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:7ec97e64-a76f-4f4f-b0a3-e3b2442197a2",
+        "timestamp" : "2021-11-30T11:37:16-07:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-karyotype-status-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-karyotype-status-cs",
+          "code" : "normal",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-karyotype-status-cs",
+          "code" : "abnormal",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-karyotype-status-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-karyotype-status-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-dna-index-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-dna-index-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-dna-index-cs.html\">PCDCH DNA Indexes v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-dna-index-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-dna-index-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-dna-index-cs-hypodiploid\"> </a><a href=\"CodeSystem-pcdch-dna-index-cs.html#pcdch-dna-index-cs-hypodiploid\">hypodiploid</a></td><td>DNA index &lt; 1</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-dna-index-cs-diploid\"> </a><a href=\"CodeSystem-pcdch-dna-index-cs.html#pcdch-dna-index-cs-diploid\">diploid</a></td><td>DNA index = 1</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-dna-index-cs-hyperdiploid\"> </a><a href=\"CodeSystem-pcdch-dna-index-cs.html#pcdch-dna-index-cs-hyperdiploid\">hyperdiploid</a></td><td>DNA index &gt; 1</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-dna-index-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-dna-index-cs.html#pcdch-dna-index-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-dna-index-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-dna-index-cs.html#pcdch-dna-index-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-dna-index-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-dna-index-vs",
+      "title" : "PCDCH DNA Index ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH DNA Index ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:d173e4b3-dcb0-4481-9741-954561fc6d10",
+        "timestamp" : "2021-11-30T11:37:16-07:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-dna-index-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-dna-index-cs",
+          "code" : "hypodiploid",
+          "display" : "DNA index < 1"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-dna-index-cs",
+          "code" : "diploid",
+          "display" : "DNA index = 1"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-dna-index-cs",
+          "code" : "hyperdiploid",
+          "display" : "DNA index > 1"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-dna-index-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-dna-index-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-sample-source-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-molecular-sample-source-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html\">PCDCH Molecular Analysis Classification v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-analysis-classification-cs-blood\"> </a><a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html#pcdch-molecular-analysis-classification-cs-blood\">blood</a></td><td/><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-analysis-classification-cs-marrow\"> </a><a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html#pcdch-molecular-analysis-classification-cs-marrow\">marrow</a></td><td/><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-analysis-classification-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html#pcdch-molecular-analysis-classification-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-analysis-classification-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-molecular-analysis-classification-cs.html#pcdch-molecular-analysis-classification-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-sample-source-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-molecular-sample-source-vs",
+      "title" : "PCDCH Molecular Sample Source ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Molecular Sample Source ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:377d41bb-ad07-4009-ac64-227ff205d99c",
+        "timestamp" : "2021-11-30T11:37:17-07:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs",
+          "code" : "blood"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs",
+          "code" : "marrow"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-mutation-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-mutation-type-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-mutation-type-cs.html\">PCDCH Mutation Types v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-mutation-type-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-mutation-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-mutation-type-cs-somatic\"> </a><a href=\"CodeSystem-pcdch-mutation-type-cs.html#pcdch-mutation-type-cs-somatic\">somatic</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-mutation-type-cs-germline-constitutional\"> </a><a href=\"CodeSystem-pcdch-mutation-type-cs.html#pcdch-mutation-type-cs-germline.47constitutional\">germline/constitutional</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-mutation-type-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-mutation-type-cs.html#pcdch-mutation-type-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-mutation-type-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-mutation-type-cs.html#pcdch-mutation-type-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-mutation-type-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-mutation-type-vs",
+      "title" : "PCDCH Mutation Type ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Mutation Type ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:1507534e-21f1-4fb7-8103-8e03f714d70b",
+        "timestamp" : "2021-11-30T11:37:17-07:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mutation-type-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mutation-type-cs",
+          "code" : "somatic",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mutation-type-cs",
+          "code" : "germline/constitutional",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mutation-type-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-mutation-type-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-translocation-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-translocation-status-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-translocation-status-cs.html\">PCDCH Translocation Statuses v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-translocation-status-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-translocation-status-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-translocation-status-cs-balanced\"> </a><a href=\"CodeSystem-pcdch-translocation-status-cs.html#pcdch-translocation-status-cs-balanced\">balanced</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-translocation-status-cs-unbalanced\"> </a><a href=\"CodeSystem-pcdch-translocation-status-cs.html#pcdch-translocation-status-cs-unbalanced\">unbalanced</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-translocation-status-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-translocation-status-cs.html#pcdch-translocation-status-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-translocation-status-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-translocation-status-cs.html#pcdch-translocation-status-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-translocation-status-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-translocation-status-vs",
+      "title" : "PCDCH Translocation Status ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Translocation Status ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:622fbbfa-e1b2-4364-9db0-39220be97d96",
+        "timestamp" : "2021-11-30T11:37:17-07:00",
+        "total" : 4,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-translocation-status-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-translocation-status-cs",
+          "code" : "balanced",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-translocation-status-cs",
+          "code" : "unbalanced",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-translocation-status-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-translocation-status-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-abnormality-result-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-molecular-abnormality-result-status-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html\">PCDCH Molecular Abnormality Result Statuses v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-abnormality-result-status-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-abnormality-result-status-cs-positive\"> </a><a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html#pcdch-molecular-abnormality-result-status-cs-positive\">positive</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-abnormality-result-status-cs-negative\"> </a><a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html#pcdch-molecular-abnormality-result-status-cs-negative\">negative</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-abnormality-result-status-cs-not-done\"> </a><a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html#pcdch-molecular-abnormality-result-status-cs-not-done\">not-done</a></td><td>[AMBIGUOUS TERM] description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-abnormality-result-status-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html#pcdch-molecular-abnormality-result-status-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-molecular-abnormality-result-status-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html#pcdch-molecular-abnormality-result-status-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-abnormality-result-status-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-molecular-abnormality-result-status-vs",
+      "title" : "PCDCH Molecular Abnormality Result Status ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Molecular Abnormality Result Status ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:ecaaa5af-9045-46da-9e02-06361ce0dc4a",
+        "timestamp" : "2021-11-30T11:37:17-07:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-abnormality-result-status-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-abnormality-result-status-cs",
+          "code" : "positive",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-abnormality-result-status-cs",
+          "code" : "negative",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-abnormality-result-status-cs",
+          "code" : "not-done",
+          "display" : "[AMBIGUOUS TERM] description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-abnormality-result-status-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-abnormality-result-status-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-cytodifferentiation-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-cytodifferentiation-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html\">PCDCH Cytodifferentiation v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytodifferentiation-cs-1\"> </a><a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html#pcdch-cytodifferentiation-cs-1\">1</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytodifferentiation-cs-2\"> </a><a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html#pcdch-cytodifferentiation-cs-2\">2</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytodifferentiation-cs-3\"> </a><a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html#pcdch-cytodifferentiation-cs-3\">3</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytodifferentiation-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html#pcdch-cytodifferentiation-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytodifferentiation-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html#pcdch-cytodifferentiation-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-cytodifferentiation-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-cytodifferentiation-vs",
+      "title" : "PCDCH Cytodifferentiation ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Cytodifferentiation ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:672d6206-cf1e-4770-a8b1-fc9a3ce6be47",
+        "timestamp" : "2021-11-30T11:37:18-07:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs",
+          "code" : "1",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs",
+          "code" : "2",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs",
+          "code" : "3",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-variant-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-cytogenetic-variant-type-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html\">PCDCH Cytogenetic Variant Types v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-translocation\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-translocation\">translocation</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-inversion\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-inversion\">inversion</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-mutation\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-mutation\">mutation</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-SNV\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-SNV\">SNV</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-CNA\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-CNA\">CNA</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-rearrangement\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-rearrangement\">rearrangement</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-deletion\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-deletion\">deletion</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-amplification\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-amplification\">amplification</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-other\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-other\">other</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-variant-type-cs-not-reported\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-not-reported\">not-reported</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-variant-type-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-cytogenetic-variant-type-vs",
+      "title" : "PCDCH Cytogenetic Variant Type ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Cytogenetic Variant Type ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:536eea37-1b6c-445a-a60d-2206c8400a14",
+        "timestamp" : "2021-11-30T11:37:18-07:00",
+        "total" : 11,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "translocation",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "inversion",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "mutation",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "SNV",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "CNA",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "rearrangement",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "deletion",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "amplification",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "other",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+          "code" : "not-reported",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-genotyping-analysis-type-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html\">PCDCH Genotyping Analysis Type v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-type-cs-NGS\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html#pcdch-genotyping-analysis-type-cs-NGS\">NGS</a></td><td>Next-generation sequencing</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-type-cs-CE\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html#pcdch-genotyping-analysis-type-cs-CE\">CE</a></td><td>Capillary Electropheresis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-type-cs-GE\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html#pcdch-genotyping-analysis-type-cs-GE\">GE</a></td><td>Gel Electropheresis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-type-cs-PCR\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html#pcdch-genotyping-analysis-type-cs-PCR\">PCR</a></td><td>Polymerase Chain Reaction</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-type-cs-RT-PCR\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html#pcdch-genotyping-analysis-type-cs-RT-PCR\">RT-PCR</a></td><td>Reverse Transcriptase-Polymerase Chain Reaction</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-type-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-genotyping-analysis-type-vs",
+      "title" : "PCDCH Genotyping Analysis Type ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T11:37:05-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Genotyping Analysis Type ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:0f71c0fb-22f8-4b41-bf30-baf9325fb722",
+        "timestamp" : "2021-11-30T11:37:18-07:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
+          "code" : "NGS",
+          "display" : "Next-generation sequencing"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
+          "code" : "CE",
+          "display" : "Capillary Electropheresis"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
+          "code" : "GE",
+          "display" : "Gel Electropheresis"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
+          "code" : "PCR",
+          "display" : "Polymerase Chain Reaction"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
+          "code" : "RT-PCR",
+          "display" : "Reverse Transcriptase-Polymerase Chain Reaction"
+        }]
+      }
+    }
+  }]
+}

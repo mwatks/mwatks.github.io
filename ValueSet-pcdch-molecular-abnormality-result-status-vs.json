@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pcdch-molecular-abnormality-result-status-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-abnormality-result-status-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html#pcdch-molecular-abnormality-result-status-cs-positive\">positive</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html#pcdch-molecular-abnormality-result-status-cs-negative\">negative</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html#pcdch-molecular-abnormality-result-status-cs-not-done\">not-done</a></td><td>[AMBIGUOUS TERM] description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html#pcdch-molecular-abnormality-result-status-cs-unknown\">unknown</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-molecular-abnormality-result-status-cs.html#pcdch-molecular-abnormality-result-status-cs-not-reported\">not-reported</a></td><td>description will go here</td></tr></table></li></ul></div>"
+  },
+  "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-abnormality-result-status-vs",
+  "version": "0.1.0",
+  "name": "pcdch-molecular-abnormality-result-status-vs",
+  "title": "PCDCH Molecular Abnormality Result Status ValueSet",
+  "status": "active",
+  "date": "2021-11-30T11:37:05-07:00",
+  "contact": [
+    {
+      "name": "Michael Watkins",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "michaelwatkins@uchicago.edu"
+        }
+      ]
+    }
+  ],
+  "description": "PCDCH Molecular Abnormality Result Status ValueSet",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-abnormality-result-status-cs",
+        "concept": [
+          {
+            "code": "positive"
+          },
+          {
+            "code": "negative"
+          },
+          {
+            "code": "not-done"
+          },
+          {
+            "code": "unknown"
+          },
+          {
+            "code": "not-reported"
+          }
+        ]
+      }
+    ]
+  }
+}

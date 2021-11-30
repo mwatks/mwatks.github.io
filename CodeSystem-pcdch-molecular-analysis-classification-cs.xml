@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="pcdch-molecular-analysis-classification-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">primary<a name="pcdch-molecular-analysis-classification-cs-primary"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">metastatic<a name="pcdch-molecular-analysis-classification-cs-metastatic"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">unknown<a name="pcdch-molecular-analysis-classification-cs-unknown"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">not-reported<a name="pcdch-molecular-analysis-classification-cs-not-reported"> </a></td><td>description will go here</td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs"/>
+  <version value="0.1.0"/>
+  <name value="pcdch-molecular-analysis-classification-cs"/>
+  <title value="PCDCH Molecular Analysis Classification"/>
+  <status value="active"/>
+  <date value="2021-11-30T11:37:05-07:00"/>
+  <contact>
+    <name value="Michael Watkins"/>
+    <telecom>
+      <system value="email"/>
+      <value value="michaelwatkins@uchicago.edu"/>
+    </telecom>
+  </contact>
+  <description value="PCDCH Molecular Analysis Classification"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="primary"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="metastatic"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="not-reported"/>
+    <display value="description will go here"/>
+  </concept>
+</CodeSystem>

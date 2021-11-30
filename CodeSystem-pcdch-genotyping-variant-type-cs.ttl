@@ -1,0 +1,81 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pcdch-genotyping-variant-type-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">substitution<a name=\"pcdch-genotyping-variant-type-cs-substitution\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">deletion<a name=\"pcdch-genotyping-variant-type-cs-deletion\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">duplication<a name=\"pcdch-genotyping-variant-type-cs-duplication\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">insertion<a name=\"pcdch-genotyping-variant-type-cs-insertion\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">inversion<a name=\"pcdch-genotyping-variant-type-cs-inversion\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">frameshift<a name=\"pcdch-genotyping-variant-type-cs-frameshift\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">extension<a name=\"pcdch-genotyping-variant-type-cs-extension\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"pcdch-genotyping-variant-type-cs-other\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"pcdch-genotyping-variant-type-cs-unknown\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">not-reported<a name=\"pcdch-genotyping-variant-type-cs-not-reported\"> </a></td><td>description will go here</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "pcdch-genotyping-variant-type-cs"];
+  fhir:CodeSystem.title [ fhir:value "PCDCH Genotyping Variant Types"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-11-30T11:37:05-07:00"^^xsd:dateTime];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Michael Watkins" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "michaelwatkins@uchicago.edu" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "PCDCH Genotyping Variant Types"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "10"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "substitution" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "deletion" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "duplication" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "insertion" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "inversion" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "frameshift" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "extension" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "other" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "unknown" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "not-reported" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

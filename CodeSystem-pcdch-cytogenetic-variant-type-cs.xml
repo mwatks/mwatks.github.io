@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="pcdch-cytogenetic-variant-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">translocation<a name="pcdch-cytogenetic-variant-type-cs-translocation"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">inversion<a name="pcdch-cytogenetic-variant-type-cs-inversion"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">mutation<a name="pcdch-cytogenetic-variant-type-cs-mutation"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">SNV<a name="pcdch-cytogenetic-variant-type-cs-SNV"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">CNA<a name="pcdch-cytogenetic-variant-type-cs-CNA"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">rearrangement<a name="pcdch-cytogenetic-variant-type-cs-rearrangement"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">deletion<a name="pcdch-cytogenetic-variant-type-cs-deletion"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">amplification<a name="pcdch-cytogenetic-variant-type-cs-amplification"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">other<a name="pcdch-cytogenetic-variant-type-cs-other"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">unknown<a name="pcdch-cytogenetic-variant-type-cs-unknown"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">not-reported<a name="pcdch-cytogenetic-variant-type-cs-not-reported"> </a></td><td>description will go here</td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="pcdch-cytogenetic-variant-type-cs"/>
+  <title value="PCDCH Cytogenetic Variant Types"/>
+  <status value="active"/>
+  <date value="2021-11-30T11:37:05-07:00"/>
+  <contact>
+    <name value="Michael Watkins"/>
+    <telecom>
+      <system value="email"/>
+      <value value="michaelwatkins@uchicago.edu"/>
+    </telecom>
+  </contact>
+  <description value="PCDCH Cytogenetic Variant Types"/>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="translocation"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="inversion"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="mutation"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="SNV"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="CNA"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="rearrangement"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="deletion"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="amplification"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="not-reported"/>
+    <display value="description will go here"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-variant-type-vs> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pcdch-genotyping-variant-type-vs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-substitution\">substitution</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-deletion\">deletion</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-duplication\">duplication</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-insertion\">insertion</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-inversion\">inversion</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-frameshift\">frameshift</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-extension\">extension</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-other\">other</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-unknown\">unknown</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-genotyping-variant-type-cs.html#pcdch-genotyping-variant-type-cs-not-reported\">not-reported</a></td><td>description will go here</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-variant-type-vs"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "pcdch-genotyping-variant-type-vs"];
+  fhir:ValueSet.title [ fhir:value "PCDCH Genotyping Variant Type ValueSet"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-11-30T11:37:05-07:00"^^xsd:dateTime];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Michael Watkins" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "michaelwatkins@uchicago.edu" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "PCDCH Genotyping Variant Type ValueSet"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "substitution" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "deletion" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "duplication" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "insertion" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "inversion" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "frameshift" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "extension" ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "other" ]
+       ], [
+         fhir:index 8;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "unknown" ]
+       ], [
+         fhir:index 9;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "not-reported" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-variant-type-vs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

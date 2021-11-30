@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pcdch-cytogenetic-variant-type-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-translocation\">translocation</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-inversion\">inversion</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-mutation\">mutation</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-SNV\">SNV</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-CNA\">CNA</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-rearrangement\">rearrangement</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-deletion\">deletion</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-amplification\">amplification</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-other\">other</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-unknown\">unknown</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-variant-type-cs.html#pcdch-cytogenetic-variant-type-cs-not-reported\">not-reported</a></td><td>description will go here</td></tr></table></li></ul></div>"
+  },
+  "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-variant-type-vs",
+  "version": "0.1.0",
+  "name": "pcdch-cytogenetic-variant-type-vs",
+  "title": "PCDCH Cytogenetic Variant Type ValueSet",
+  "status": "active",
+  "date": "2021-11-30T11:37:05-07:00",
+  "contact": [
+    {
+      "name": "Michael Watkins",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "michaelwatkins@uchicago.edu"
+        }
+      ]
+    }
+  ],
+  "description": "PCDCH Cytogenetic Variant Type ValueSet",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+        "concept": [
+          {
+            "code": "translocation"
+          },
+          {
+            "code": "inversion"
+          },
+          {
+            "code": "mutation"
+          },
+          {
+            "code": "SNV"
+          },
+          {
+            "code": "CNA"
+          },
+          {
+            "code": "rearrangement"
+          },
+          {
+            "code": "deletion"
+          },
+          {
+            "code": "amplification"
+          },
+          {
+            "code": "other"
+          },
+          {
+            "code": "unknown"
+          },
+          {
+            "code": "not-reported"
+          }
+        ]
+      }
+    ]
+  }
+}

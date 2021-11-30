@@ -1,0 +1,46 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pcdch-molecular-analysis-classification-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">primary<a name=\"pcdch-molecular-analysis-classification-cs-primary\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">metastatic<a name=\"pcdch-molecular-analysis-classification-cs-metastatic\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"pcdch-molecular-analysis-classification-cs-unknown\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">not-reported<a name=\"pcdch-molecular-analysis-classification-cs-not-reported\"> </a></td><td>description will go here</td></tr></table></div>"
+  },
+  "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs",
+  "version": "0.1.0",
+  "name": "pcdch-molecular-analysis-classification-cs",
+  "title": "PCDCH Molecular Analysis Classification",
+  "status": "active",
+  "date": "2021-11-30T11:37:05-07:00",
+  "contact": [
+    {
+      "name": "Michael Watkins",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "michaelwatkins@uchicago.edu"
+        }
+      ]
+    }
+  ],
+  "description": "PCDCH Molecular Analysis Classification",
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "primary",
+      "display": "description will go here"
+    },
+    {
+      "code": "metastatic",
+      "display": "description will go here"
+    },
+    {
+      "code": "unknown",
+      "display": "description will go here"
+    },
+    {
+      "code": "not-reported",
+      "display": "description will go here"
+    }
+  ]
+}

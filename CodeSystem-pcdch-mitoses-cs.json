@@ -1,0 +1,50 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pcdch-mitoses-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"pcdch-mitoses-cs-1\"> </a></td><td>0-9 Mitoses per 10 HPF</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"pcdch-mitoses-cs-2\"> </a></td><td>10-19 Mitoses per 10 HPF</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"pcdch-mitoses-cs-3\"> </a></td><td>&gt; 19 Mitoses per 10 HPF</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"pcdch-mitoses-cs-unknown\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">not-reported<a name=\"pcdch-mitoses-cs-not-reported\"> </a></td><td>description will go here</td></tr></table></div>"
+  },
+  "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs",
+  "version": "0.1.0",
+  "name": "pcdch-mitoses-cs",
+  "title": "PCDCH Mitoses Scores",
+  "status": "active",
+  "date": "2021-11-30T11:37:05-07:00",
+  "contact": [
+    {
+      "name": "Michael Watkins",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "michaelwatkins@uchicago.edu"
+        }
+      ]
+    }
+  ],
+  "description": "The number of mitoses per high-power field (HPF)",
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "1",
+      "display": "0-9 Mitoses per 10 HPF"
+    },
+    {
+      "code": "2",
+      "display": "10-19 Mitoses per 10 HPF"
+    },
+    {
+      "code": "3",
+      "display": "> 19 Mitoses per 10 HPF"
+    },
+    {
+      "code": "unknown",
+      "display": "description will go here"
+    },
+    {
+      "code": "not-reported",
+      "display": "description will go here"
+    }
+  ]
+}

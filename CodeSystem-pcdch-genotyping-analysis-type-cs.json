@@ -1,0 +1,50 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pcdch-genotyping-analysis-type-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">NGS<a name=\"pcdch-genotyping-analysis-type-cs-NGS\"> </a></td><td>Next-generation sequencing</td></tr><tr><td style=\"white-space:nowrap\">CE<a name=\"pcdch-genotyping-analysis-type-cs-CE\"> </a></td><td>Capillary Electropheresis</td></tr><tr><td style=\"white-space:nowrap\">GE<a name=\"pcdch-genotyping-analysis-type-cs-GE\"> </a></td><td>Gel Electropheresis</td></tr><tr><td style=\"white-space:nowrap\">PCR<a name=\"pcdch-genotyping-analysis-type-cs-PCR\"> </a></td><td>Polymerase Chain Reaction</td></tr><tr><td style=\"white-space:nowrap\">RT-PCR<a name=\"pcdch-genotyping-analysis-type-cs-RT-PCR\"> </a></td><td>Reverse Transcriptase-Polymerase Chain Reaction</td></tr></table></div>"
+  },
+  "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
+  "version": "0.1.0",
+  "name": "pcdch-genotyping-analysis-type-cs",
+  "title": "PCDCH Genotyping Analysis Type",
+  "status": "active",
+  "date": "2021-11-30T11:37:05-07:00",
+  "contact": [
+    {
+      "name": "Michael Watkins",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "michaelwatkins@uchicago.edu"
+        }
+      ]
+    }
+  ],
+  "description": "PCDCH Genotyping Analysis Type",
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "NGS",
+      "display": "Next-generation sequencing"
+    },
+    {
+      "code": "CE",
+      "display": "Capillary Electropheresis"
+    },
+    {
+      "code": "GE",
+      "display": "Gel Electropheresis"
+    },
+    {
+      "code": "PCR",
+      "display": "Polymerase Chain Reaction"
+    },
+    {
+      "code": "RT-PCR",
+      "display": "Reverse Transcriptase-Polymerase Chain Reaction"
+    }
+  ]
+}

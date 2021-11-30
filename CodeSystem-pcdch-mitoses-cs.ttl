@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pcdch-mitoses-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"pcdch-mitoses-cs-1\"> </a></td><td>0-9 Mitoses per 10 HPF</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"pcdch-mitoses-cs-2\"> </a></td><td>10-19 Mitoses per 10 HPF</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"pcdch-mitoses-cs-3\"> </a></td><td>&gt; 19 Mitoses per 10 HPF</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"pcdch-mitoses-cs-unknown\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">not-reported<a name=\"pcdch-mitoses-cs-not-reported\"> </a></td><td>description will go here</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "pcdch-mitoses-cs"];
+  fhir:CodeSystem.title [ fhir:value "PCDCH Mitoses Scores"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-11-30T11:37:05-07:00"^^xsd:dateTime];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Michael Watkins" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "michaelwatkins@uchicago.edu" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "The number of mitoses per high-power field (HPF)"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "0-9 Mitoses per 10 HPF" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "10-19 Mitoses per 10 HPF" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "> 19 Mitoses per 10 HPF" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "unknown" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "not-reported" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

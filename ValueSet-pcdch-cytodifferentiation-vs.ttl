@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/ValueSet/pcdch-cytodifferentiation-vs> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pcdch-cytodifferentiation-vs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html#pcdch-cytodifferentiation-cs-1\">1</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html#pcdch-cytodifferentiation-cs-2\">2</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html#pcdch-cytodifferentiation-cs-3\">3</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html#pcdch-cytodifferentiation-cs-unknown\">unknown</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytodifferentiation-cs.html#pcdch-cytodifferentiation-cs-not-reported\">not-reported</a></td><td>description will go here</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://example.org/fhir/pcdc/ValueSet/pcdch-cytodifferentiation-vs"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "pcdch-cytodifferentiation-vs"];
+  fhir:ValueSet.title [ fhir:value "PCDCH Cytodifferentiation ValueSet"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-11-30T11:37:05-07:00"^^xsd:dateTime];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Michael Watkins" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "michaelwatkins@uchicago.edu" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "PCDCH Cytodifferentiation ValueSet"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "unknown" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "not-reported" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/ValueSet/pcdch-cytodifferentiation-vs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

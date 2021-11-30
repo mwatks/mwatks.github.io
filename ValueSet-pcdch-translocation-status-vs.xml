@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="pcdch-translocation-status-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="CodeSystem-pcdch-translocation-status-cs.html"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-translocation-status-cs</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-pcdch-translocation-status-cs.html#pcdch-translocation-status-cs-balanced">balanced</a></td><td>description will go here</td></tr><tr><td><a href="CodeSystem-pcdch-translocation-status-cs.html#pcdch-translocation-status-cs-unbalanced">unbalanced</a></td><td>description will go here</td></tr><tr><td><a href="CodeSystem-pcdch-translocation-status-cs.html#pcdch-translocation-status-cs-unknown">unknown</a></td><td>description will go here</td></tr><tr><td><a href="CodeSystem-pcdch-translocation-status-cs.html#pcdch-translocation-status-cs-not-reported">not-reported</a></td><td>description will go here</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://example.org/fhir/pcdc/ValueSet/pcdch-translocation-status-vs"/>
+  <version value="0.1.0"/>
+  <name value="pcdch-translocation-status-vs"/>
+  <title value="PCDCH Translocation Status ValueSet"/>
+  <status value="active"/>
+  <date value="2021-11-30T11:37:05-07:00"/>
+  <contact>
+    <name value="Michael Watkins"/>
+    <telecom>
+      <system value="email"/>
+      <value value="michaelwatkins@uchicago.edu"/>
+    </telecom>
+  </contact>
+  <description value="PCDCH Translocation Status ValueSet"/>
+  <compose>
+    <include>
+      <system value="http://example.org/fhir/pcdc/CodeSystem/pcdch-translocation-status-cs"/>
+      <concept>
+        <code value="balanced"/>
+      </concept>
+      <concept>
+        <code value="unbalanced"/>
+      </concept>
+      <concept>
+        <code value="unknown"/>
+      </concept>
+      <concept>
+        <code value="not-reported"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

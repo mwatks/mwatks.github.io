@@ -1,0 +1,198 @@
+[
+  {
+    "id": "pcdch-cytodifferentiation-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytodifferentiation-cs",
+    "version": "0.1.0",
+    "name": "pcdch-cytodifferentiation-cs"
+  },
+  {
+    "id": "pcdch-cytogenetic-analysis-type-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
+    "version": "0.1.0",
+    "name": "pcdch-cytogenetic-analysis-type-cs"
+  },
+  {
+    "id": "pcdch-cytogenetic-variant-type-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
+    "version": "0.1.0",
+    "name": "pcdch-cytogenetic-variant-type-cs"
+  },
+  {
+    "id": "pcdch-dna-index-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-dna-index-cs",
+    "version": "0.1.0",
+    "name": "pcdch-dna-index-cs"
+  },
+  {
+    "id": "pcdch-genotyping-analysis-type-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
+    "version": "0.1.0",
+    "name": "pcdch-genotyping-analysis-type-cs"
+  },
+  {
+    "id": "pcdch-genotyping-variant-type-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-variant-type-cs",
+    "version": "0.1.0",
+    "name": "pcdch-genotyping-variant-type-cs"
+  },
+  {
+    "id": "pcdch-karyotype-status-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-karyotype-status-cs",
+    "version": "0.1.0",
+    "name": "pcdch-karyotype-status-cs"
+  },
+  {
+    "id": "pcdch-mitoses-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-mitoses-cs",
+    "version": "0.1.0",
+    "name": "pcdch-mitoses-cs"
+  },
+  {
+    "id": "pcdch-molecular-abnormality-result-status-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-abnormality-result-status-cs",
+    "version": "0.1.0",
+    "name": "pcdch-molecular-abnormality-result-status-cs"
+  },
+  {
+    "id": "pcdch-molecular-analysis-classification-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-analysis-classification-cs",
+    "version": "0.1.0",
+    "name": "pcdch-molecular-analysis-classification-cs"
+  },
+  {
+    "id": "pcdch-molecular-sample-source-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-molecular-sample-source-cs",
+    "version": "0.1.0",
+    "name": "pcdch-molecular-sample-source-cs"
+  },
+  {
+    "id": "pcdch-mutation-type-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-mutation-type-cs",
+    "version": "0.1.0",
+    "name": "pcdch-mutation-type-cs"
+  },
+  {
+    "id": "pcdch-translocation-status-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-translocation-status-cs",
+    "version": "0.1.0",
+    "name": "pcdch-translocation-status-cs"
+  },
+  {
+    "id": "pcdc",
+    "type": "ImplementationGuide",
+    "url": "http://example.org/fhir/pcdc/ImplementationGuide/pcdc",
+    "version": "0.1.0",
+    "name": "pcdcig"
+  },
+  {
+    "id": "pcdch-molecularAnalysis",
+    "type": "StructureDefinition",
+    "url": "http://example.org/fhir/pcdc/StructureDefinition/pcdch-molecularAnalysis",
+    "version": "0.1.0",
+    "name": "PCDCH_MolecularAnalysis"
+  },
+  {
+    "id": "pcdch-cytodifferentiation-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-cytodifferentiation-vs",
+    "version": "0.1.0",
+    "name": "pcdch-cytodifferentiation-vs"
+  },
+  {
+    "id": "pcdch-cytogenetic-analysis-type-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-type-vs",
+    "version": "0.1.0",
+    "name": "pcdch-cytogenetic-analysis-type-vs"
+  },
+  {
+    "id": "pcdch-cytogenetic-variant-type-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-variant-type-vs",
+    "version": "0.1.0",
+    "name": "pcdch-cytogenetic-variant-type-vs"
+  },
+  {
+    "id": "pcdch-dna-index-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-dna-index-vs",
+    "version": "0.1.0",
+    "name": "pcdch-dna-index-vs"
+  },
+  {
+    "id": "pcdch-genotyping-analysis-type-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-type-vs",
+    "version": "0.1.0",
+    "name": "pcdch-genotyping-analysis-type-vs"
+  },
+  {
+    "id": "pcdch-genotyping-variant-type-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-variant-type-vs",
+    "version": "0.1.0",
+    "name": "pcdch-genotyping-variant-type-vs"
+  },
+  {
+    "id": "pcdch-karyotype-status-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-karyotype-status-vs",
+    "version": "0.1.0",
+    "name": "pcdch-karyotype-status-vs"
+  },
+  {
+    "id": "pcdch-mitoses-score-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-mitoses-score-vs",
+    "version": "0.1.0",
+    "name": "pcdch-mitoses-score-vs"
+  },
+  {
+    "id": "pcdch-molecular-abnormality-result-status-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-abnormality-result-status-vs",
+    "version": "0.1.0",
+    "name": "pcdch-molecular-abnormality-result-status-vs"
+  },
+  {
+    "id": "pcdch-molecular-analysis-classification-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-analysis-classification-vs",
+    "version": "0.1.0",
+    "name": "pcdch-molecular-analysis-classification-vs"
+  },
+  {
+    "id": "pcdch-molecular-sample-source-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-sample-source-vs",
+    "version": "0.1.0",
+    "name": "pcdch-molecular-sample-source-vs"
+  },
+  {
+    "id": "pcdch-mutation-type-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-mutation-type-vs",
+    "version": "0.1.0",
+    "name": "pcdch-mutation-type-vs"
+  },
+  {
+    "id": "pcdch-translocation-status-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-translocation-status-vs",
+    "version": "0.1.0",
+    "name": "pcdch-translocation-status-vs"
+  }
+]

@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="pcdch-molecularAnalysis"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis" title="Contributing Consortia: AML, ALL, EWS, RMS, NRSTS, INRG, GCT">pcdch-molecularAnalysis</a><a name="pcdch-molecularAnalysis"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">PCDCH Molecular Analysis Model</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.classification" title="primary | metastatic | unknown | not-reported">classification</a><a name="pcdch-molecularAnalysis.classification"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">primary | metastatic | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-molecular-analysis-classification-vs.html">PCDCH Molecular Analysis Classification ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.sampleSource" title="blood | marrow |unknown | not-reported">sampleSource</a><a name="pcdch-molecularAnalysis.sampleSource"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">blood | marrow |unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-molecular-analysis-classification-vs.html">PCDCH Molecular Analysis Classification ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis" title="A cytogenetic molecular analysis">cytogeneticAnalysis</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">A cytogenetic molecular analysis</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.type" title="karyotyping | FISH | CMA | CGH | aCGH">type</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">karyotyping | FISH | CMA | CGH | aCGH<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-cytogenetic-analysis-type-vs.html">PCDCH Cytogenetic Analysis Type ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.karyotypeStatus" title="normal | abnormal | unknown | not-reported">karyotypeStatus</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.karyotypeStatus"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">normal | abnormal | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-karyotype-status-vs.html">PCDCH Karyotype Status ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndex" title="hypodiploid | diploid | hyperdiploid | unknown | not-reported">dnaIndex</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndex"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">hypodiploid | diploid | hyperdiploid | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-dna-index-vs.html">PCDCH DNA Index ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndexNumeric" title="Numeric DNA Index">dnaIndexNumeric</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndexNumeric"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Numeric DNA Index</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.cytodifferentiation" title="1 | 2 | 3 | unknown | not-reported">cytodifferentiation</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.cytodifferentiation"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1 | 2 | 3 | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-cytodifferentiation-vs.html">PCDCH Cytodifferentiation ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.chromosomeTotal" title="Number of chromosomes on karyotype">chromosomeTotal</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.chromosomeTotal"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Number of chromosomes on karyotype</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abberationTotal" title="Number of independent abberations on karyotype">abberationTotal</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abberationTotal"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Number of independent abberations on karyotype</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.metaphaseTotal" title="Number of cells in metaphase during karyotyping">metaphaseTotal</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.metaphaseTotal"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Number of cells in metaphase during karyotyping</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.mitosesScore" title="1 | 2 | 3 | unknown | not-reported">mitosesScore</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.mitosesScore"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1 | 2 | 3 | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-mitoses-score-vs.html">PCDCH Mitoses Scores ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult" title="Molecular Abnormality Result">abnormalityResult</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Molecular Abnormality Result<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.status" title="positive | negative | not-done | unknown | not-reported">status</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.status"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">positive | negative | not-done | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-molecular-abnormality-result-status-vs.html">PCDCH Molecular Abnormality Result Status ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.mutationType" title="somatic | germline/constitutional | unknown | not-reported">mutationType</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.mutationType"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">somatic | germline/constitutional | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-mutation-type-vs.html">PCDCH Mutation Type ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.cytogeneticVariantType" title="translocation | inversion | mutation | SNV | CNV | rearrangement | deletion | amplification | other | unknown | not-reported">cytogeneticVariantType</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.cytogeneticVariantType"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">translocation | inversion | mutation | SNV | CNV | rearrangement | deletion | amplification | other | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-cytogenetic-variant-type-vs.html">PCDCH Cytogenetic Variant Type ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.iscn" title="Valid ISCN string">iscn</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.iscn"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Valid ISCN string</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.translocationStatus" title="balanced | unbalanced| unknown | not-reported">translocationStatus</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.translocationStatus"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">balanced | unbalanced| unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-translocation-status-vs.html">PCDCH Translocation Status ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1011.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion" title="Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2">geneFusion</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene1" title="Valid HGNC gene symbol">gene1</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene1"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Valid HGNC gene symbol<br/><span style="font-weight:bold">Binding: </span><a href="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc">http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene2" title="Valid HGNC gene symbol">gene2</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene2"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Valid HGNC gene symbol<br/><span style="font-weight:bold">Binding: </span><a href="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc">http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository" title="External repository which contains detailed report">repository</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">External repository which contains detailed report</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.type" title="directlink | openapi | login | oauth | other">type</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">directlink | openapi | login | oauth | other<br/><span style="font-weight:bold">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-repository-type.html">repositoryType</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.url" title="URI of the repository">url</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.url"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">URI of the repository</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.name" title="Repository's name">name</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.name"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Repository's name</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.dataset" title="Id of the dataset that used to call for dataset in repository">dataset</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.dataset"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Id of the dataset that used to call for dataset in repository</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.variantsetId" title="Id of the variantset that used to call for variantset in repository">variantsetId</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.variantsetId"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Id of the variantset that used to call for variantset in repository</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.readsetId" title="Id of the read">readsetId</a><a name="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.readsetId"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Id of the read</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis" title="A genotyping molecular analysis">genotypingAnalysis</a><a name="pcdch-molecularAnalysis.genotypingAnalysis"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">A genotyping molecular analysis</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.type" title="NGS | DNA microarray | CE | GE | PCR | RT-PCR">type</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">NGS | DNA microarray | CE | GE | PCR | RT-PCR<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-genotyping-analysis-type-vs.html">PCDCH Genotyping Analysis Type ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult" title="Molecular Abnormality Result">abnormalityResult</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Molecular Abnormality Result<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.status" title="positive | negative | not-done | unknown | not-reported">status</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.status"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">positive | negative | not-done | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-molecular-abnormality-result-status-vs.html">PCDCH Molecular Abnormality Result Status ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.mutationType" title="somatic | germline/constitutional | unknown | not-reported">mutationType</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.mutationType"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">somatic | germline/constitutional | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-mutation-type-vs.html">PCDCH Mutation Type ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.genotypingVariantType" title="substitution | deletion | duplication | insertion | inversion | frameshift | extension | other | unknown | not-reported">genotypingVariantType</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.genotypingVariantType"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">substitution | deletion | duplication | insertion | inversion | frameshift | extension | other | unknown | not-reported<br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-pcdch-genotyping-variant-type-vs.html">PCDCH Genotyping Variant Type ValueSet</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.hgvs" title="Valid HGVS string">hgvs</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.hgvs"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Valid HGVS string</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.allelicRatio" title="The percentage of reads that show SNV at a particular nucleotide position">allelicRatio</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.allelicRatio"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#integer">integer</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The percentage of reads that show SNV at a particular nucleotide position</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0011.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion" title="Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2">geneFusion</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene1" title="Valid HGNC gene symbol">gene1</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene1"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Valid HGNC gene symbol<br/><span style="font-weight:bold">Binding: </span><a href="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc">http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene2" title="Valid HGNC gene symbol">gene2</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene2"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Valid HGNC gene symbol<br/><span style="font-weight:bold">Binding: </span><a href="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc">http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository" title="External repository which contains detailed report">repository</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">External repository which contains detailed report</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.type" title="directlink | openapi | login | oauth | other">type</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">directlink | openapi | login | oauth | other<br/><span style="font-weight:bold">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-repository-type.html">repositoryType</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.url" title="URI of the repository">url</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.url"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">URI of the repository</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.name" title="Repository's name">name</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.name"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Repository's name</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.dataset" title="Id of the dataset that used to call for dataset in repository">dataset</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.dataset"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Id of the dataset that used to call for dataset in repository</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.variantsetId" title="Id of the variantset that used to call for variantset in repository">variantsetId</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.variantsetId"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Id of the variantset that used to call for variantset in repository</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-pcdch-molecularAnalysis-definitions.html#pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.readsetId" title="Id of the read">readsetId</a><a name="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.readsetId"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Id of the read</td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/pcdc/StructureDefinition/pcdch-molecularAnalysis"/>
+  <version value="0.1.0"/>
+  <name value="PCDCH_MolecularAnalysis"/>
+  <title value="PCDCH Molecular Analysis Model"/>
+  <status value="active"/>
+  <date value="2021-11-30T11:37:05-07:00"/>
+  <contact>
+    <name value="Michael Watkins"/>
+    <telecom>
+      <system value="email"/>
+      <value value="michaelwatkins@uchicago.edu"/>
+    </telecom>
+  </contact>
+  <description value="Contributing Consortia: AML, ALL, EWS, RMS, NRSTS, INRG, GCT"/>
+  <fhirVersion value="4.0.1"/>
+  <mapping>
+    <identity value="rim"/>
+    <uri value="http://hl7.org/v3"/>
+    <name value="RIM Mapping"/>
+  </mapping>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://example.org/fhir/pcdc/StructureDefinition/pcdch-molecularAnalysis"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <element id="pcdch-molecularAnalysis">
+      <path value="pcdch-molecularAnalysis"/>
+      <short value="PCDCH Molecular Analysis Model"/>
+      <definition value="Contributing Consortia: AML, ALL, EWS, RMS, NRSTS, INRG, GCT"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Base"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <isModifier value="false"/>
+    </element>
+    <element id="pcdch-molecularAnalysis.classification">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.classification"/>
+      <short value="primary | metastatic | unknown | not-reported"/>
+      <definition value="primary | metastatic | unknown | not-reported"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.classification"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-analysis-classification-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.sampleSource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.sampleSource"/>
+      <short value="blood | marrow |unknown | not-reported"/>
+      <definition value="blood | marrow |unknown | not-reported"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.sampleSource"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-analysis-classification-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis"/>
+      <short value="A cytogenetic molecular analysis"/>
+      <definition value="A cytogenetic molecular analysis"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.type"/>
+      <short value="karyotyping | FISH | CMA | CGH | aCGH"/>
+      <definition value="karyotyping | FISH | CMA | CGH | aCGH"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.karyotypeStatus">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.karyotypeStatus"/>
+      <short value="normal | abnormal | unknown | not-reported"/>
+      <definition value="normal | abnormal | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.karyotypeStatus"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-karyotype-status-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndex">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndex"/>
+      <short value="hypodiploid | diploid | hyperdiploid | unknown | not-reported"/>
+      <definition value="hypodiploid | diploid | hyperdiploid | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndex"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-dna-index-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndexNumeric">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndexNumeric"/>
+      <short value="Numeric DNA Index"/>
+      <definition value="Numeric DNA Index"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndexNumeric"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.cytodifferentiation">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.cytodifferentiation"/>
+      <short value="1 | 2 | 3 | unknown | not-reported"/>
+      <definition value="1 | 2 | 3 | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.cytodifferentiation"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-cytodifferentiation-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.chromosomeTotal">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.chromosomeTotal"/>
+      <short value="Number of chromosomes on karyotype"/>
+      <definition value="Number of chromosomes on karyotype"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.chromosomeTotal"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abberationTotal">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abberationTotal"/>
+      <short value="Number of independent abberations on karyotype"/>
+      <definition value="Number of independent abberations on karyotype"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abberationTotal"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.metaphaseTotal">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.metaphaseTotal"/>
+      <short value="Number of cells in metaphase during karyotyping"/>
+      <definition value="Number of cells in metaphase during karyotyping"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.metaphaseTotal"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.mitosesScore">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.mitosesScore"/>
+      <short value="1 | 2 | 3 | unknown | not-reported"/>
+      <definition value="1 | 2 | 3 | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.mitosesScore"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-mitoses-score-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult"/>
+      <short value="Molecular Abnormality Result"/>
+      <definition value="Molecular Abnormality Result"/>
+      <min value="1"/>
+      <max value="*"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult"/>
+        <min value="1"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.status">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.status"/>
+      <short value="positive | negative | not-done | unknown | not-reported"/>
+      <definition value="positive | negative | not-done | unknown | not-reported"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.status"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-abnormality-result-status-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.mutationType">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.mutationType"/>
+      <short value="somatic | germline/constitutional | unknown | not-reported"/>
+      <definition value="somatic | germline/constitutional | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.mutationType"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-mutation-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.cytogeneticVariantType">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.cytogeneticVariantType"/>
+      <short value="translocation | inversion | mutation | SNV | CNV | rearrangement | deletion | amplification | other | unknown | not-reported"/>
+      <definition value="translocation | inversion | mutation | SNV | CNV | rearrangement | deletion | amplification | other | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.cytogeneticVariantType"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-variant-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.iscn">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.iscn"/>
+      <short value="Valid ISCN string"/>
+      <definition value="Valid ISCN string"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.iscn"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.translocationStatus">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.translocationStatus"/>
+      <short value="balanced | unbalanced| unknown | not-reported"/>
+      <definition value="balanced | unbalanced| unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.translocationStatus"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-translocation-status-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion"/>
+      <short value="Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2"/>
+      <definition value="Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene1"/>
+      <short value="Valid HGNC gene symbol"/>
+      <definition value="Valid HGNC gene symbol"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene1"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene2">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene2"/>
+      <short value="Valid HGNC gene symbol"/>
+      <definition value="Valid HGNC gene symbol"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene2"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository"/>
+      <short value="External repository which contains detailed report"/>
+      <definition value="External repository which contains detailed report"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.type"/>
+      <short value="directlink | openapi | login | oauth | other"/>
+      <definition value="directlink | openapi | login | oauth | other"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/repository-type"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.url">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.url"/>
+      <short value="URI of the repository"/>
+      <definition value="URI of the repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.url"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="uri"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.name">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.name"/>
+      <short value="Repository&#39;s name"/>
+      <definition value="Repository&#39;s name"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.name"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.dataset">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.dataset"/>
+      <short value="Id of the dataset that used to call for dataset in repository"/>
+      <definition value="Id of the dataset that used to call for dataset in repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.dataset"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.variantsetId">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.variantsetId"/>
+      <short value="Id of the variantset that used to call for variantset in repository"/>
+      <definition value="Id of the variantset that used to call for variantset in repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.variantsetId"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.readsetId">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.readsetId"/>
+      <short value="Id of the read"/>
+      <definition value="Id of the read"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.readsetId"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis"/>
+      <short value="A genotyping molecular analysis"/>
+      <definition value="A genotyping molecular analysis"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.type"/>
+      <short value="NGS | DNA microarray | CE | GE | PCR | RT-PCR"/>
+      <definition value="NGS | DNA microarray | CE | GE | PCR | RT-PCR"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult"/>
+      <short value="Molecular Abnormality Result"/>
+      <definition value="Molecular Abnormality Result"/>
+      <min value="1"/>
+      <max value="*"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult"/>
+        <min value="1"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.status">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.status"/>
+      <short value="positive | negative | not-done | unknown | not-reported"/>
+      <definition value="positive | negative | not-done | unknown | not-reported"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.status"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-abnormality-result-status-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.mutationType">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.mutationType"/>
+      <short value="somatic | germline/constitutional | unknown | not-reported"/>
+      <definition value="somatic | germline/constitutional | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.mutationType"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-mutation-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.genotypingVariantType">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.genotypingVariantType"/>
+      <short value="substitution | deletion | duplication | insertion | inversion | frameshift | extension | other | unknown | not-reported"/>
+      <definition value="substitution | deletion | duplication | insertion | inversion | frameshift | extension | other | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.genotypingVariantType"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-variant-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.hgvs">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.hgvs"/>
+      <short value="Valid HGVS string"/>
+      <definition value="Valid HGVS string"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.hgvs"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.allelicRatio">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.allelicRatio"/>
+      <short value="The percentage of reads that show SNV at a particular nucleotide position"/>
+      <definition value="The percentage of reads that show SNV at a particular nucleotide position"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.allelicRatio"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion"/>
+      <short value="Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2"/>
+      <definition value="Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene1"/>
+      <short value="Valid HGNC gene symbol"/>
+      <definition value="Valid HGNC gene symbol"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene1"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene2">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene2"/>
+      <short value="Valid HGNC gene symbol"/>
+      <definition value="Valid HGNC gene symbol"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene2"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository"/>
+      <short value="External repository which contains detailed report"/>
+      <definition value="External repository which contains detailed report"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.type"/>
+      <short value="directlink | openapi | login | oauth | other"/>
+      <definition value="directlink | openapi | login | oauth | other"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/repository-type"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.url">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.url"/>
+      <short value="URI of the repository"/>
+      <definition value="URI of the repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.url"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="uri"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.name">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.name"/>
+      <short value="Repository&#39;s name"/>
+      <definition value="Repository&#39;s name"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.name"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.dataset">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.dataset"/>
+      <short value="Id of the dataset that used to call for dataset in repository"/>
+      <definition value="Id of the dataset that used to call for dataset in repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.dataset"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.variantsetId">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.variantsetId"/>
+      <short value="Id of the variantset that used to call for variantset in repository"/>
+      <definition value="Id of the variantset that used to call for variantset in repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.variantsetId"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.readsetId">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.readsetId"/>
+      <short value="Id of the read"/>
+      <definition value="Id of the read"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.readsetId"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="pcdch-molecularAnalysis">
+      <path value="pcdch-molecularAnalysis"/>
+      <short value="PCDCH Molecular Analysis Model"/>
+      <definition value="Contributing Consortia: AML, ALL, EWS, RMS, NRSTS, INRG, GCT"/>
+    </element>
+    <element id="pcdch-molecularAnalysis.classification">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.classification"/>
+      <short value="primary | metastatic | unknown | not-reported"/>
+      <definition value="primary | metastatic | unknown | not-reported"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-analysis-classification-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.sampleSource">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.sampleSource"/>
+      <short value="blood | marrow |unknown | not-reported"/>
+      <definition value="blood | marrow |unknown | not-reported"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-analysis-classification-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis"/>
+      <short value="A cytogenetic molecular analysis"/>
+      <definition value="A cytogenetic molecular analysis"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.type"/>
+      <short value="karyotyping | FISH | CMA | CGH | aCGH"/>
+      <definition value="karyotyping | FISH | CMA | CGH | aCGH"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.karyotypeStatus">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.karyotypeStatus"/>
+      <short value="normal | abnormal | unknown | not-reported"/>
+      <definition value="normal | abnormal | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-karyotype-status-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndex">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndex"/>
+      <short value="hypodiploid | diploid | hyperdiploid | unknown | not-reported"/>
+      <definition value="hypodiploid | diploid | hyperdiploid | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-dna-index-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndexNumeric">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.dnaIndexNumeric"/>
+      <short value="Numeric DNA Index"/>
+      <definition value="Numeric DNA Index"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.cytodifferentiation">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.cytodifferentiation"/>
+      <short value="1 | 2 | 3 | unknown | not-reported"/>
+      <definition value="1 | 2 | 3 | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-cytodifferentiation-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.chromosomeTotal">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.chromosomeTotal"/>
+      <short value="Number of chromosomes on karyotype"/>
+      <definition value="Number of chromosomes on karyotype"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abberationTotal">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abberationTotal"/>
+      <short value="Number of independent abberations on karyotype"/>
+      <definition value="Number of independent abberations on karyotype"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.metaphaseTotal">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.metaphaseTotal"/>
+      <short value="Number of cells in metaphase during karyotyping"/>
+      <definition value="Number of cells in metaphase during karyotyping"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.mitosesScore">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.mitosesScore"/>
+      <short value="1 | 2 | 3 | unknown | not-reported"/>
+      <definition value="1 | 2 | 3 | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-mitoses-score-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult"/>
+      <short value="Molecular Abnormality Result"/>
+      <definition value="Molecular Abnormality Result"/>
+      <min value="1"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.status">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.status"/>
+      <short value="positive | negative | not-done | unknown | not-reported"/>
+      <definition value="positive | negative | not-done | unknown | not-reported"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-abnormality-result-status-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.mutationType">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.mutationType"/>
+      <short value="somatic | germline/constitutional | unknown | not-reported"/>
+      <definition value="somatic | germline/constitutional | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-mutation-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.cytogeneticVariantType">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.cytogeneticVariantType"/>
+      <short value="translocation | inversion | mutation | SNV | CNV | rearrangement | deletion | amplification | other | unknown | not-reported"/>
+      <definition value="translocation | inversion | mutation | SNV | CNV | rearrangement | deletion | amplification | other | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-variant-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.iscn">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.iscn"/>
+      <short value="Valid ISCN string"/>
+      <definition value="Valid ISCN string"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.translocationStatus">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.translocationStatus"/>
+      <short value="balanced | unbalanced| unknown | not-reported"/>
+      <definition value="balanced | unbalanced| unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-translocation-status-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion"/>
+      <short value="Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2"/>
+      <definition value="Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene1"/>
+      <short value="Valid HGNC gene symbol"/>
+      <definition value="Valid HGNC gene symbol"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene2">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene2"/>
+      <short value="Valid HGNC gene symbol"/>
+      <definition value="Valid HGNC gene symbol"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository"/>
+      <short value="External repository which contains detailed report"/>
+      <definition value="External repository which contains detailed report"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.type"/>
+      <short value="directlink | openapi | login | oauth | other"/>
+      <definition value="directlink | openapi | login | oauth | other"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/repository-type"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.url">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.url"/>
+      <short value="URI of the repository"/>
+      <definition value="URI of the repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="uri"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.name">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.name"/>
+      <short value="Repository&#39;s name"/>
+      <definition value="Repository&#39;s name"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.dataset">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.dataset"/>
+      <short value="Id of the dataset that used to call for dataset in repository"/>
+      <definition value="Id of the dataset that used to call for dataset in repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.variantsetId">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.variantsetId"/>
+      <short value="Id of the variantset that used to call for variantset in repository"/>
+      <definition value="Id of the variantset that used to call for variantset in repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.readsetId">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.readsetId"/>
+      <short value="Id of the read"/>
+      <definition value="Id of the read"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis"/>
+      <short value="A genotyping molecular analysis"/>
+      <definition value="A genotyping molecular analysis"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.type"/>
+      <short value="NGS | DNA microarray | CE | GE | PCR | RT-PCR"/>
+      <definition value="NGS | DNA microarray | CE | GE | PCR | RT-PCR"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult"/>
+      <short value="Molecular Abnormality Result"/>
+      <definition value="Molecular Abnormality Result"/>
+      <min value="1"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.status">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.status"/>
+      <short value="positive | negative | not-done | unknown | not-reported"/>
+      <definition value="positive | negative | not-done | unknown | not-reported"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="extensible"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-abnormality-result-status-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.mutationType">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.mutationType"/>
+      <short value="somatic | germline/constitutional | unknown | not-reported"/>
+      <definition value="somatic | germline/constitutional | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-mutation-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.genotypingVariantType">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.genotypingVariantType"/>
+      <short value="substitution | deletion | duplication | insertion | inversion | frameshift | extension | other | unknown | not-reported"/>
+      <definition value="substitution | deletion | duplication | insertion | inversion | frameshift | extension | other | unknown | not-reported"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-variant-type-vs"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.hgvs">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.hgvs"/>
+      <short value="Valid HGVS string"/>
+      <definition value="Valid HGVS string"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.allelicRatio">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.allelicRatio"/>
+      <short value="The percentage of reads that show SNV at a particular nucleotide position"/>
+      <definition value="The percentage of reads that show SNV at a particular nucleotide position"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="integer"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion"/>
+      <short value="Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2"/>
+      <definition value="Typically expressed as either: Gene1/Gene2, Gene1-Gene2, or Gene1::Gene2"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene1"/>
+      <short value="Valid HGNC gene symbol"/>
+      <definition value="Valid HGNC gene symbol"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene2">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene2"/>
+      <short value="Valid HGNC gene symbol"/>
+      <definition value="Valid HGNC gene symbol"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository"/>
+      <short value="External repository which contains detailed report"/>
+      <definition value="External repository which contains detailed report"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.type"/>
+      <short value="directlink | openapi | login | oauth | other"/>
+      <definition value="directlink | openapi | login | oauth | other"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="code"/>
+      </type>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/repository-type"/>
+      </binding>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.url">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.url"/>
+      <short value="URI of the repository"/>
+      <definition value="URI of the repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="uri"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.name">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.name"/>
+      <short value="Repository&#39;s name"/>
+      <definition value="Repository&#39;s name"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.dataset">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.dataset"/>
+      <short value="Id of the dataset that used to call for dataset in repository"/>
+      <definition value="Id of the dataset that used to call for dataset in repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.variantsetId">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.variantsetId"/>
+      <short value="Id of the variantset that used to call for variantset in repository"/>
+      <definition value="Id of the variantset that used to call for variantset in repository"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+    <element id="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.readsetId">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="draft"/>
+      </extension>
+      <path value="pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.readsetId"/>
+      <short value="Id of the read"/>
+      <definition value="Id of the read"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
