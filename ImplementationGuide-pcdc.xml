@@ -11,7 +11,7 @@
   <name value="pcdcig"/>
   <title value="PCDC Data Models"/>
   <status value="draft"/>
-  <date value="2021-11-30T11:37:05-07:00"/>
+  <date value="2021-11-30T12:25:27-07:00"/>
   <contact>
     <name value="Michael Watkins"/>
     <telecom>
@@ -219,10 +219,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/pcdch-cytogenetic-analysis-type-vs"/>
+        <reference value="ValueSet/pcdch-cytogenetic-analysis-method-vs"/>
       </reference>
-      <name value="PCDCH Cytogenetic Analysis Type ValueSet"/>
-      <description value="PCDCH Cytogenetic Analysis Type ValueSet"/>
+      <name value="PCDCH Cytogenetic Analysis Method ValueSet"/>
+      <description value="PCDCH Cytogenetic Analysis Method ValueSet"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -252,10 +252,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/pcdch-genotyping-analysis-type-vs"/>
+        <reference value="ValueSet/pcdch-genotyping-analysis-method-vs"/>
       </reference>
-      <name value="PCDCH Genotyping Analysis Type ValueSet"/>
-      <description value="PCDCH Genotyping Analysis Type ValueSet"/>
+      <name value="PCDCH Genotyping Analysis Method ValueSet"/>
+      <description value="PCDCH Genotyping Analysis Method ValueSet"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -362,10 +362,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/pcdch-cytogenetic-analysis-type-cs"/>
+        <reference value="CodeSystem/pcdch-cytogenetic-analysis-method-cs"/>
       </reference>
-      <name value="PCDCH Cytogenetic Analysis Type"/>
-      <description value="PCDCH Cytogenetic Analysis Type"/>
+      <name value="PCDCH Cytogenetic Analysis Method"/>
+      <description value="PCDCH Cytogenetic Analysis Method"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -395,10 +395,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/pcdch-genotyping-analysis-type-cs"/>
+        <reference value="CodeSystem/pcdch-genotyping-analysis-method-cs"/>
       </reference>
-      <name value="PCDCH Genotyping Analysis Type"/>
-      <description value="PCDCH Genotyping Analysis Type"/>
+      <name value="PCDCH Genotyping Analysis Method"/>
+      <description value="PCDCH Genotyping Analysis Method"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "81933536-8eeb-4876-8b97-5cc0ff7ba354",
+  "id" : "453d662c-033a-4df2-8fdf-0fbea0175874",
   "meta" : {
-    "lastUpdated" : "2021-11-30T11:37:05.059-07:00"
+    "lastUpdated" : "2021-11-30T12:25:27.109-07:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "pcdch-mitoses-score-vs",
       "title" : "PCDCH Mitoses Scores ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -29,8 +29,8 @@
       }],
       "description" : "PCDCH Mitoses Scores ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:738a53fd-8c99-414e-9a4c-8575e2bd68e3",
-        "timestamp" : "2021-11-30T11:37:15-07:00",
+        "identifier" : "urn:uuid:49d8bff6-baf5-49cc-9de1-b8a9cbe44868",
+        "timestamp" : "2021-11-30T12:25:37-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -82,7 +82,7 @@
       "name" : "pcdch-genotyping-variant-type-vs",
       "title" : "PCDCH Genotyping Variant Type ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -92,8 +92,8 @@
       }],
       "description" : "PCDCH Genotyping Variant Type ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:1af37697-dedd-48d6-b67d-9c083f2068f4",
-        "timestamp" : "2021-11-30T11:37:15-07:00",
+        "identifier" : "urn:uuid:432345ea-1b5b-43d7-8f38-7535983fb382",
+        "timestamp" : "2021-11-30T12:25:37-07:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -170,7 +170,7 @@
       "name" : "pcdch-molecular-analysis-classification-vs",
       "title" : "PCDCH Molecular Analysis Classification ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -180,8 +180,8 @@
       }],
       "description" : "PCDCH Molecular Analysis Classification ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:69fa62ee-1f99-488f-a8b7-8da7aad94819",
-        "timestamp" : "2021-11-30T11:37:15-07:00",
+        "identifier" : "urn:uuid:046b5146-7fb1-40c3-a146-499438f50235",
+        "timestamp" : "2021-11-30T12:25:37-07:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -215,69 +215,6 @@
     }
   },
   {
-    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-type-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "pcdch-cytogenetic-analysis-type-vs",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html\">PCDCH Cytogenetic Analysis Type v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-type-cs-karyotyping\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html#pcdch-cytogenetic-analysis-type-cs-karyotyping\">karyotyping</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-type-cs-FISH\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html#pcdch-cytogenetic-analysis-type-cs-FISH\">FISH</a></td><td>Fluorescence in situ hybridization</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-type-cs-CMA\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html#pcdch-cytogenetic-analysis-type-cs-CMA\">CMA</a></td><td>Chromosomal microarray analysis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-type-cs-CGH\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html#pcdch-cytogenetic-analysis-type-cs-CGH\">CGH</a></td><td>Comparative genomic hybridisation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-type-cs-aCGH\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-type-cs.html#pcdch-cytogenetic-analysis-type-cs-aCGH\">aCGH</a></td><td>Array comparative genomic hybridisation</td><td/></tr></table></div>"
-      },
-      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-type-vs",
-      "version" : "0.1.0",
-      "name" : "pcdch-cytogenetic-analysis-type-vs",
-      "title" : "PCDCH Cytogenetic Analysis Type ValueSet",
-      "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
-      "contact" : [{
-        "name" : "Michael Watkins",
-        "telecom" : [{
-          "system" : "email",
-          "value" : "michaelwatkins@uchicago.edu"
-        }]
-      }],
-      "description" : "PCDCH Cytogenetic Analysis Type ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:e84c7df9-cf68-455a-ae9c-26a832d687d7",
-        "timestamp" : "2021-11-30T11:37:15-07:00",
-        "total" : 5,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
-          "code" : "karyotyping",
-          "display" : "description will go here"
-        },
-        {
-          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
-          "code" : "FISH",
-          "display" : "Fluorescence in situ hybridization"
-        },
-        {
-          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
-          "code" : "CMA",
-          "display" : "Chromosomal microarray analysis"
-        },
-        {
-          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
-          "code" : "CGH",
-          "display" : "Comparative genomic hybridisation"
-        },
-        {
-          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
-          "code" : "aCGH",
-          "display" : "Array comparative genomic hybridisation"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-karyotype-status-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -291,7 +228,7 @@
       "name" : "pcdch-karyotype-status-vs",
       "title" : "PCDCH Karyotype Status ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -301,8 +238,8 @@
       }],
       "description" : "PCDCH Karyotype Status ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:7ec97e64-a76f-4f4f-b0a3-e3b2442197a2",
-        "timestamp" : "2021-11-30T11:37:16-07:00",
+        "identifier" : "urn:uuid:f6eb966c-2b64-4f2e-9c61-e310f76735a1",
+        "timestamp" : "2021-11-30T12:25:38-07:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -349,7 +286,7 @@
       "name" : "pcdch-dna-index-vs",
       "title" : "PCDCH DNA Index ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -359,8 +296,8 @@
       }],
       "description" : "PCDCH DNA Index ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:d173e4b3-dcb0-4481-9741-954561fc6d10",
-        "timestamp" : "2021-11-30T11:37:16-07:00",
+        "identifier" : "urn:uuid:7cadcd7a-1d5a-4f9f-992c-f543a235b8ef",
+        "timestamp" : "2021-11-30T12:25:38-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -399,6 +336,69 @@
     }
   },
   {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-method-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-cytogenetic-analysis-method-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html\">PCDCH Cytogenetic Analysis Method v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-method-cs-karyotyping\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-karyotyping\">karyotyping</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-method-cs-FISH\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-FISH\">FISH</a></td><td>Fluorescence in situ hybridization</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-method-cs-CMA\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-CMA\">CMA</a></td><td>Chromosomal microarray analysis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-method-cs-CGH\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-CGH\">CGH</a></td><td>Comparative genomic hybridisation</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-cytogenetic-analysis-method-cs-aCGH\"> </a><a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-aCGH\">aCGH</a></td><td>Array comparative genomic hybridisation</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-method-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-cytogenetic-analysis-method-vs",
+      "title" : "PCDCH Cytogenetic Analysis Method ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T12:25:27-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Cytogenetic Analysis Method ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:fd98d205-ad8e-4730-9b47-bdff1fdcd479",
+        "timestamp" : "2021-11-30T12:25:38-07:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs",
+          "code" : "karyotyping",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs",
+          "code" : "FISH",
+          "display" : "Fluorescence in situ hybridization"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs",
+          "code" : "CMA",
+          "display" : "Chromosomal microarray analysis"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs",
+          "code" : "CGH",
+          "display" : "Comparative genomic hybridisation"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs",
+          "code" : "aCGH",
+          "display" : "Array comparative genomic hybridisation"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-molecular-sample-source-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -412,7 +412,7 @@
       "name" : "pcdch-molecular-sample-source-vs",
       "title" : "PCDCH Molecular Sample Source ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -422,8 +422,8 @@
       }],
       "description" : "PCDCH Molecular Sample Source ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:377d41bb-ad07-4009-ac64-227ff205d99c",
-        "timestamp" : "2021-11-30T11:37:17-07:00",
+        "identifier" : "urn:uuid:6f9e7b7b-26e8-46b0-b709-898bd3c20a6b",
+        "timestamp" : "2021-11-30T12:25:38-07:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -468,7 +468,7 @@
       "name" : "pcdch-mutation-type-vs",
       "title" : "PCDCH Mutation Type ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -478,8 +478,8 @@
       }],
       "description" : "PCDCH Mutation Type ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:1507534e-21f1-4fb7-8103-8e03f714d70b",
-        "timestamp" : "2021-11-30T11:37:17-07:00",
+        "identifier" : "urn:uuid:12834844-467e-493a-8264-01f83e1abaf6",
+        "timestamp" : "2021-11-30T12:25:38-07:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -513,6 +513,69 @@
     }
   },
   {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-method-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-genotyping-analysis-method-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-genotyping-analysis-method-cs.html\">PCDCH Genotyping Analysis Method v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-genotyping-analysis-method-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-method-cs-NGS\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-method-cs.html#pcdch-genotyping-analysis-method-cs-NGS\">NGS</a></td><td>Next-generation sequencing</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-method-cs-CE\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-method-cs.html#pcdch-genotyping-analysis-method-cs-CE\">CE</a></td><td>Capillary Electropheresis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-method-cs-GE\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-method-cs.html#pcdch-genotyping-analysis-method-cs-GE\">GE</a></td><td>Gel Electropheresis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-method-cs-PCR\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-method-cs.html#pcdch-genotyping-analysis-method-cs-PCR\">PCR</a></td><td>Polymerase Chain Reaction</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-method-cs-RT-PCR\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-method-cs.html#pcdch-genotyping-analysis-method-cs-RT-PCR\">RT-PCR</a></td><td>Reverse Transcriptase-Polymerase Chain Reaction</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-method-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-genotyping-analysis-method-vs",
+      "title" : "PCDCH Genotyping Analysis Method ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T12:25:27-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Genotyping Analysis Method ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:8cfb67fb-8a26-4f09-954f-e3158c7e881b",
+        "timestamp" : "2021-11-30T12:25:39-07:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs",
+          "code" : "NGS",
+          "display" : "Next-generation sequencing"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs",
+          "code" : "CE",
+          "display" : "Capillary Electropheresis"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs",
+          "code" : "GE",
+          "display" : "Gel Electropheresis"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs",
+          "code" : "PCR",
+          "display" : "Polymerase Chain Reaction"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs",
+          "code" : "RT-PCR",
+          "display" : "Reverse Transcriptase-Polymerase Chain Reaction"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-translocation-status-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -526,7 +589,7 @@
       "name" : "pcdch-translocation-status-vs",
       "title" : "PCDCH Translocation Status ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -536,8 +599,8 @@
       }],
       "description" : "PCDCH Translocation Status ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:622fbbfa-e1b2-4364-9db0-39220be97d96",
-        "timestamp" : "2021-11-30T11:37:17-07:00",
+        "identifier" : "urn:uuid:fd0dfcd0-f85a-4545-a38e-e9356e010b19",
+        "timestamp" : "2021-11-30T12:25:39-07:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -584,7 +647,7 @@
       "name" : "pcdch-molecular-abnormality-result-status-vs",
       "title" : "PCDCH Molecular Abnormality Result Status ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -594,8 +657,8 @@
       }],
       "description" : "PCDCH Molecular Abnormality Result Status ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:ecaaa5af-9045-46da-9e02-06361ce0dc4a",
-        "timestamp" : "2021-11-30T11:37:17-07:00",
+        "identifier" : "urn:uuid:860c0b6e-cd9d-49cc-9816-84fcae56c5bd",
+        "timestamp" : "2021-11-30T12:25:39-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -647,7 +710,7 @@
       "name" : "pcdch-cytodifferentiation-vs",
       "title" : "PCDCH Cytodifferentiation ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -657,8 +720,8 @@
       }],
       "description" : "PCDCH Cytodifferentiation ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:672d6206-cf1e-4770-a8b1-fc9a3ce6be47",
-        "timestamp" : "2021-11-30T11:37:18-07:00",
+        "identifier" : "urn:uuid:ceb625f0-60cc-425a-b09d-04c53d4b1ff4",
+        "timestamp" : "2021-11-30T12:25:40-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -710,7 +773,7 @@
       "name" : "pcdch-cytogenetic-variant-type-vs",
       "title" : "PCDCH Cytogenetic Variant Type ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
+      "date" : "2021-11-30T12:25:27-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -720,8 +783,8 @@
       }],
       "description" : "PCDCH Cytogenetic Variant Type ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:536eea37-1b6c-445a-a60d-2206c8400a14",
-        "timestamp" : "2021-11-30T11:37:18-07:00",
+        "identifier" : "urn:uuid:30df8d42-db6b-4c4b-bf66-d117b372f81a",
+        "timestamp" : "2021-11-30T12:25:40-07:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -785,69 +848,6 @@
           "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-variant-type-cs",
           "code" : "not-reported",
           "display" : "description will go here"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-type-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "pcdch-genotyping-analysis-type-vs",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html\">PCDCH Genotyping Analysis Type v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-type-cs-NGS\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html#pcdch-genotyping-analysis-type-cs-NGS\">NGS</a></td><td>Next-generation sequencing</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-type-cs-CE\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html#pcdch-genotyping-analysis-type-cs-CE\">CE</a></td><td>Capillary Electropheresis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-type-cs-GE\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html#pcdch-genotyping-analysis-type-cs-GE\">GE</a></td><td>Gel Electropheresis</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-type-cs-PCR\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html#pcdch-genotyping-analysis-type-cs-PCR\">PCR</a></td><td>Polymerase Chain Reaction</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-genotyping-analysis-type-cs-RT-PCR\"> </a><a href=\"CodeSystem-pcdch-genotyping-analysis-type-cs.html#pcdch-genotyping-analysis-type-cs-RT-PCR\">RT-PCR</a></td><td>Reverse Transcriptase-Polymerase Chain Reaction</td><td/></tr></table></div>"
-      },
-      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-type-vs",
-      "version" : "0.1.0",
-      "name" : "pcdch-genotyping-analysis-type-vs",
-      "title" : "PCDCH Genotyping Analysis Type ValueSet",
-      "status" : "active",
-      "date" : "2021-11-30T11:37:05-07:00",
-      "contact" : [{
-        "name" : "Michael Watkins",
-        "telecom" : [{
-          "system" : "email",
-          "value" : "michaelwatkins@uchicago.edu"
-        }]
-      }],
-      "description" : "PCDCH Genotyping Analysis Type ValueSet",
-      "expansion" : {
-        "identifier" : "urn:uuid:0f71c0fb-22f8-4b41-bf30-baf9325fb722",
-        "timestamp" : "2021-11-30T11:37:18-07:00",
-        "total" : 5,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
-          "code" : "NGS",
-          "display" : "Next-generation sequencing"
-        },
-        {
-          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
-          "code" : "CE",
-          "display" : "Capillary Electropheresis"
-        },
-        {
-          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
-          "code" : "GE",
-          "display" : "Gel Electropheresis"
-        },
-        {
-          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
-          "code" : "PCR",
-          "display" : "Polymerase Chain Reaction"
-        },
-        {
-          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
-          "code" : "RT-PCR",
-          "display" : "Reverse Transcriptase-Polymerase Chain Reaction"
         }]
       }
     }

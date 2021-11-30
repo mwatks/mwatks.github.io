@@ -10,7 +10,7 @@
   "name": "pcdcig",
   "title": "PCDC Data Models",
   "status": "draft",
-  "date": "2021-11-30T11:37:05-07:00",
+  "date": "2021-11-30T12:25:27-07:00",
   "contact": [
     {
       "name": "Michael Watkins",
@@ -341,10 +341,10 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/pcdch-cytogenetic-analysis-type-vs"
+          "reference": "ValueSet/pcdch-cytogenetic-analysis-method-vs"
         },
-        "name": "PCDCH Cytogenetic Analysis Type ValueSet",
-        "description": "PCDCH Cytogenetic Analysis Type ValueSet",
+        "name": "PCDCH Cytogenetic Analysis Method ValueSet",
+        "description": "PCDCH Cytogenetic Analysis Method ValueSet",
         "exampleBoolean": false
       },
       {
@@ -383,10 +383,10 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/pcdch-genotyping-analysis-type-vs"
+          "reference": "ValueSet/pcdch-genotyping-analysis-method-vs"
         },
-        "name": "PCDCH Genotyping Analysis Type ValueSet",
-        "description": "PCDCH Genotyping Analysis Type ValueSet",
+        "name": "PCDCH Genotyping Analysis Method ValueSet",
+        "description": "PCDCH Genotyping Analysis Method ValueSet",
         "exampleBoolean": false
       },
       {
@@ -523,10 +523,10 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/pcdch-cytogenetic-analysis-type-cs"
+          "reference": "CodeSystem/pcdch-cytogenetic-analysis-method-cs"
         },
-        "name": "PCDCH Cytogenetic Analysis Type",
-        "description": "PCDCH Cytogenetic Analysis Type",
+        "name": "PCDCH Cytogenetic Analysis Method",
+        "description": "PCDCH Cytogenetic Analysis Method",
         "exampleBoolean": false
       },
       {
@@ -565,10 +565,10 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/pcdch-genotyping-analysis-type-cs"
+          "reference": "CodeSystem/pcdch-genotyping-analysis-method-cs"
         },
-        "name": "PCDCH Genotyping Analysis Type",
-        "description": "PCDCH Genotyping Analysis Type",
+        "name": "PCDCH Genotyping Analysis Method",
+        "description": "PCDCH Genotyping Analysis Method",
         "exampleBoolean": false
       },
       {

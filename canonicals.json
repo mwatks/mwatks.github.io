@@ -7,11 +7,11 @@
     "name": "pcdch-cytodifferentiation-cs"
   },
   {
-    "id": "pcdch-cytogenetic-analysis-type-cs",
+    "id": "pcdch-cytogenetic-analysis-method-cs",
     "type": "CodeSystem",
-    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs",
     "version": "0.1.0",
-    "name": "pcdch-cytogenetic-analysis-type-cs"
+    "name": "pcdch-cytogenetic-analysis-method-cs"
   },
   {
     "id": "pcdch-cytogenetic-variant-type-cs",
@@ -28,11 +28,11 @@
     "name": "pcdch-dna-index-cs"
   },
   {
-    "id": "pcdch-genotyping-analysis-type-cs",
+    "id": "pcdch-genotyping-analysis-method-cs",
     "type": "CodeSystem",
-    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs",
     "version": "0.1.0",
-    "name": "pcdch-genotyping-analysis-type-cs"
+    "name": "pcdch-genotyping-analysis-method-cs"
   },
   {
     "id": "pcdch-genotyping-variant-type-cs",
@@ -112,11 +112,11 @@
     "name": "pcdch-cytodifferentiation-vs"
   },
   {
-    "id": "pcdch-cytogenetic-analysis-type-vs",
+    "id": "pcdch-cytogenetic-analysis-method-vs",
     "type": "ValueSet",
-    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-type-vs",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-method-vs",
     "version": "0.1.0",
-    "name": "pcdch-cytogenetic-analysis-type-vs"
+    "name": "pcdch-cytogenetic-analysis-method-vs"
   },
   {
     "id": "pcdch-cytogenetic-variant-type-vs",
@@ -133,11 +133,11 @@
     "name": "pcdch-dna-index-vs"
   },
   {
-    "id": "pcdch-genotyping-analysis-type-vs",
+    "id": "pcdch-genotyping-analysis-method-vs",
     "type": "ValueSet",
-    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-type-vs",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-method-vs",
     "version": "0.1.0",
-    "name": "pcdch-genotyping-analysis-type-vs"
+    "name": "pcdch-genotyping-analysis-method-vs"
   },
   {
     "id": "pcdch-genotyping-variant-type-vs",

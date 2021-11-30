@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="pcdch-cytogenetic-analysis-method-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="CodeSystem-pcdch-cytogenetic-analysis-method-cs.html"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-karyotyping">karyotyping</a></td><td>description will go here</td></tr><tr><td><a href="CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-FISH">FISH</a></td><td>Fluorescence in situ hybridization</td></tr><tr><td><a href="CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-CMA">CMA</a></td><td>Chromosomal microarray analysis</td></tr><tr><td><a href="CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-CGH">CGH</a></td><td>Comparative genomic hybridisation</td></tr><tr><td><a href="CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-aCGH">aCGH</a></td><td>Array comparative genomic hybridisation</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-method-vs"/>
+  <version value="0.1.0"/>
+  <name value="pcdch-cytogenetic-analysis-method-vs"/>
+  <title value="PCDCH Cytogenetic Analysis Method ValueSet"/>
+  <status value="active"/>
+  <date value="2021-11-30T12:25:27-07:00"/>
+  <contact>
+    <name value="Michael Watkins"/>
+    <telecom>
+      <system value="email"/>
+      <value value="michaelwatkins@uchicago.edu"/>
+    </telecom>
+  </contact>
+  <description value="PCDCH Cytogenetic Analysis Method ValueSet"/>
+  <compose>
+    <include>
+      <system value="http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs"/>
+      <concept>
+        <code value="karyotyping"/>
+      </concept>
+      <concept>
+        <code value="FISH"/>
+      </concept>
+      <concept>
+        <code value="CMA"/>
+      </concept>
+      <concept>
+        <code value="CGH"/>
+      </concept>
+      <concept>
+        <code value="aCGH"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

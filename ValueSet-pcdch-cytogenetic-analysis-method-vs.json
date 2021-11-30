@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pcdch-cytogenetic-analysis-method-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-karyotyping\">karyotyping</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-FISH\">FISH</a></td><td>Fluorescence in situ hybridization</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-CMA\">CMA</a></td><td>Chromosomal microarray analysis</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-CGH\">CGH</a></td><td>Comparative genomic hybridisation</td></tr><tr><td><a href=\"CodeSystem-pcdch-cytogenetic-analysis-method-cs.html#pcdch-cytogenetic-analysis-method-cs-aCGH\">aCGH</a></td><td>Array comparative genomic hybridisation</td></tr></table></li></ul></div>"
+  },
+  "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-method-vs",
+  "version": "0.1.0",
+  "name": "pcdch-cytogenetic-analysis-method-vs",
+  "title": "PCDCH Cytogenetic Analysis Method ValueSet",
+  "status": "active",
+  "date": "2021-11-30T12:25:27-07:00",
+  "contact": [
+    {
+      "name": "Michael Watkins",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "michaelwatkins@uchicago.edu"
+        }
+      ]
+    }
+  ],
+  "description": "PCDCH Cytogenetic Analysis Method ValueSet",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs",
+        "concept": [
+          {
+            "code": "karyotyping"
+          },
+          {
+            "code": "FISH"
+          },
+          {
+            "code": "CMA"
+          },
+          {
+            "code": "CGH"
+          },
+          {
+            "code": "aCGH"
+          }
+        ]
+      }
+    ]
+  }
+}

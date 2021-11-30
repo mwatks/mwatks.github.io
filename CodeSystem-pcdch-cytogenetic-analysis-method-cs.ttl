@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pcdch-cytogenetic-analysis-method-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">karyotyping<a name=\"pcdch-cytogenetic-analysis-method-cs-karyotyping\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">FISH<a name=\"pcdch-cytogenetic-analysis-method-cs-FISH\"> </a></td><td>Fluorescence in situ hybridization</td></tr><tr><td style=\"white-space:nowrap\">CMA<a name=\"pcdch-cytogenetic-analysis-method-cs-CMA\"> </a></td><td>Chromosomal microarray analysis</td></tr><tr><td style=\"white-space:nowrap\">CGH<a name=\"pcdch-cytogenetic-analysis-method-cs-CGH\"> </a></td><td>Comparative genomic hybridisation</td></tr><tr><td style=\"white-space:nowrap\">aCGH<a name=\"pcdch-cytogenetic-analysis-method-cs-aCGH\"> </a></td><td>Array comparative genomic hybridisation</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "pcdch-cytogenetic-analysis-method-cs"];
+  fhir:CodeSystem.title [ fhir:value "PCDCH Cytogenetic Analysis Method"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-11-30T12:25:27-07:00"^^xsd:dateTime];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Michael Watkins" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "michaelwatkins@uchicago.edu" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "PCDCH Cytogenetic Analysis Method"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "karyotyping" ];
+     fhir:CodeSystem.concept.display [ fhir:value "description will go here" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "FISH" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Fluorescence in situ hybridization" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "CMA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chromosomal microarray analysis" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "CGH" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Comparative genomic hybridisation" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "aCGH" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Array comparative genomic hybridisation" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

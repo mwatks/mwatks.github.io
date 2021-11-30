@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="pcdch-genotyping-analysis-method-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">NGS<a name="pcdch-genotyping-analysis-method-cs-NGS"> </a></td><td>Next-generation sequencing</td></tr><tr><td style="white-space:nowrap">CE<a name="pcdch-genotyping-analysis-method-cs-CE"> </a></td><td>Capillary Electropheresis</td></tr><tr><td style="white-space:nowrap">GE<a name="pcdch-genotyping-analysis-method-cs-GE"> </a></td><td>Gel Electropheresis</td></tr><tr><td style="white-space:nowrap">PCR<a name="pcdch-genotyping-analysis-method-cs-PCR"> </a></td><td>Polymerase Chain Reaction</td></tr><tr><td style="white-space:nowrap">RT-PCR<a name="pcdch-genotyping-analysis-method-cs-RT-PCR"> </a></td><td>Reverse Transcriptase-Polymerase Chain Reaction</td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs"/>
+  <version value="0.1.0"/>
+  <name value="pcdch-genotyping-analysis-method-cs"/>
+  <title value="PCDCH Genotyping Analysis Method"/>
+  <status value="active"/>
+  <date value="2021-11-30T12:25:27-07:00"/>
+  <contact>
+    <name value="Michael Watkins"/>
+    <telecom>
+      <system value="email"/>
+      <value value="michaelwatkins@uchicago.edu"/>
+    </telecom>
+  </contact>
+  <description value="PCDCH Genotyping Analysis Method"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="NGS"/>
+    <display value="Next-generation sequencing"/>
+  </concept>
+  <concept>
+    <code value="CE"/>
+    <display value="Capillary Electropheresis"/>
+  </concept>
+  <concept>
+    <code value="GE"/>
+    <display value="Gel Electropheresis"/>
+  </concept>
+  <concept>
+    <code value="PCR"/>
+    <display value="Polymerase Chain Reaction"/>
+  </concept>
+  <concept>
+    <code value="RT-PCR"/>
+    <display value="Reverse Transcriptase-Polymerase Chain Reaction"/>
+  </concept>
+</CodeSystem>

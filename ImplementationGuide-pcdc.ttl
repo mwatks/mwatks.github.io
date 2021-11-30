@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "pcdcig"];
   fhir:ImplementationGuide.title [ fhir:value "PCDC Data Models"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-11-30T11:37:05-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-11-30T12:25:27-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Michael Watkins" ];
@@ -324,11 +324,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-type-vs>;
-         fhir:Reference.reference [ fhir:value "ValueSet/pcdch-cytogenetic-analysis-type-vs" ]
+         fhir:link <http://example.org/fhir/pcdc/ValueSet/pcdch-cytogenetic-analysis-method-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/pcdch-cytogenetic-analysis-method-vs" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PCDCH Cytogenetic Analysis Type ValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PCDCH Cytogenetic Analysis Type ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PCDCH Cytogenetic Analysis Method ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PCDCH Cytogenetic Analysis Method ValueSet" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 3;
@@ -366,11 +366,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-type-vs>;
-         fhir:Reference.reference [ fhir:value "ValueSet/pcdch-genotyping-analysis-type-vs" ]
+         fhir:link <http://example.org/fhir/pcdc/ValueSet/pcdch-genotyping-analysis-method-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/pcdch-genotyping-analysis-method-vs" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PCDCH Genotyping Analysis Type ValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PCDCH Genotyping Analysis Type ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PCDCH Genotyping Analysis Method ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PCDCH Genotyping Analysis Method ValueSet" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 6;
@@ -506,11 +506,11 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-type-cs>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/pcdch-cytogenetic-analysis-type-cs" ]
+         fhir:link <http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/pcdch-cytogenetic-analysis-method-cs" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PCDCH Cytogenetic Analysis Type" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PCDCH Cytogenetic Analysis Type" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PCDCH Cytogenetic Analysis Method" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PCDCH Cytogenetic Analysis Method" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 16;
@@ -548,11 +548,11 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-type-cs>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/pcdch-genotyping-analysis-type-cs" ]
+         fhir:link <http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/pcdch-genotyping-analysis-method-cs" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PCDCH Genotyping Analysis Type" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PCDCH Genotyping Analysis Type" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PCDCH Genotyping Analysis Method" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "PCDCH Genotyping Analysis Method" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 19;

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="pcdch-cytogenetic-analysis-method-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">karyotyping<a name="pcdch-cytogenetic-analysis-method-cs-karyotyping"> </a></td><td>description will go here</td></tr><tr><td style="white-space:nowrap">FISH<a name="pcdch-cytogenetic-analysis-method-cs-FISH"> </a></td><td>Fluorescence in situ hybridization</td></tr><tr><td style="white-space:nowrap">CMA<a name="pcdch-cytogenetic-analysis-method-cs-CMA"> </a></td><td>Chromosomal microarray analysis</td></tr><tr><td style="white-space:nowrap">CGH<a name="pcdch-cytogenetic-analysis-method-cs-CGH"> </a></td><td>Comparative genomic hybridisation</td></tr><tr><td style="white-space:nowrap">aCGH<a name="pcdch-cytogenetic-analysis-method-cs-aCGH"> </a></td><td>Array comparative genomic hybridisation</td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/pcdc/CodeSystem/pcdch-cytogenetic-analysis-method-cs"/>
+  <version value="0.1.0"/>
+  <name value="pcdch-cytogenetic-analysis-method-cs"/>
+  <title value="PCDCH Cytogenetic Analysis Method"/>
+  <status value="active"/>
+  <date value="2021-11-30T12:25:27-07:00"/>
+  <contact>
+    <name value="Michael Watkins"/>
+    <telecom>
+      <system value="email"/>
+      <value value="michaelwatkins@uchicago.edu"/>
+    </telecom>
+  </contact>
+  <description value="PCDCH Cytogenetic Analysis Method"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="karyotyping"/>
+    <display value="description will go here"/>
+  </concept>
+  <concept>
+    <code value="FISH"/>
+    <display value="Fluorescence in situ hybridization"/>
+  </concept>
+  <concept>
+    <code value="CMA"/>
+    <display value="Chromosomal microarray analysis"/>
+  </concept>
+  <concept>
+    <code value="CGH"/>
+    <display value="Comparative genomic hybridisation"/>
+  </concept>
+  <concept>
+    <code value="aCGH"/>
+    <display value="Array comparative genomic hybridisation"/>
+  </concept>
+</CodeSystem>
