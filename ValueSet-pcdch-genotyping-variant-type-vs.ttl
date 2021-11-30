@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "pcdch-genotyping-variant-type-vs"];
   fhir:ValueSet.title [ fhir:value "PCDCH Genotyping Variant Type ValueSet"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-11-30T12:25:27-07:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-11-30T14:21:59-07:00"^^xsd:dateTime];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Michael Watkins" ];

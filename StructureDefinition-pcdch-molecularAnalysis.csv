@@ -42,6 +42,8 @@
 ","Valid HGNC gene symbol (AML, EWS, RMS, NRSTS, INRG, GCT, ALL)","Valid HGNC gene symbol (AML, EWS, RMS, NRSTS, INRG, GCT, ALL)","","","","","","","","","",,"required","","http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc","",,,,"pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene1",1,1,"",""
 "pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene2","","","",1,1,"","","","code {[]} {[]}
 ","Valid HGNC gene symbol (AML, EWS, RMS, NRSTS, INRG, GCT, ALL)","Valid HGNC gene symbol (AML, EWS, RMS, NRSTS, INRG, GCT, ALL)","","","","","","","","","",,"required","","http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc","",,,,"pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.gene2",1,1,"",""
+"pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.status","","","",1,1,"","","","code {[]} {[]}
+","positive | negative | unknown (RMS)","positive | negative | unknown (RMS)","","","","","","","","","",,"required","","http://example.org/fhir/pcdc/ValueSet/pcdch-fusion-status-vs","",,,,"pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.geneFusion.status",1,1,"",""
 "pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","External repository which contains detailed report (AML, ALL)","External repository which contains detailed report (AML, ALL)","","","","","","","","","",,,,,"",,,,"pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository",0,1,"",""
 "pcdch-molecularAnalysis.cytogeneticAnalysis.abnormalityResult.repository.type","","","",1,1,"","","","code {[]} {[]}
@@ -78,6 +80,8 @@
 ","Valid HGNC gene symbol (AML, EWS, RMS, NRSTS, INRG, GCT, ALL)","Valid HGNC gene symbol (AML, EWS, RMS, NRSTS, INRG, GCT, ALL)","","","","","","","","","",,"required","","http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc","",,,,"pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene1",1,1,"",""
 "pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene2","","","",1,1,"","","","code {[]} {[]}
 ","Valid HGNC gene symbol (AML, EWS, RMS, NRSTS, INRG, GCT, ALL)","Valid HGNC gene symbol (AML, EWS, RMS, NRSTS, INRG, GCT, ALL)","","","","","","","","","",,"required","","http://hl7.org/fhir/uv/genomics-reporting/ValueSet/hgnc","",,,,"pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.gene2",1,1,"",""
+"pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.status","","","",1,1,"","","","code {[]} {[]}
+","positive | negative | unknown (RMS)","positive | negative | unknown (RMS)","","","","","","","","","",,"required","","http://example.org/fhir/pcdc/ValueSet/pcdch-fusion-status-vs","",,,,"pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.geneFusion.status",1,1,"",""
 "pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","External repository which contains detailed report (AML, ALL)","External repository which contains detailed report (AML, ALL)","","","","","","","","","",,,,,"",,,,"pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository",0,1,"",""
 "pcdch-molecularAnalysis.genotypingAnalysis.abnormalityResult.repository.type","","","",1,1,"","","","code {[]} {[]}

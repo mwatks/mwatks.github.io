@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "pcdch-fusion-status-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://example.org/fhir/pcdc/CodeSystem/pcdch-fusion-status-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">positive<a name=\"pcdch-fusion-status-cs-positive\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">negative<a name=\"pcdch-fusion-status-cs-negative\"> </a></td><td>description will go here</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"pcdch-fusion-status-cs-unknown\"> </a></td><td>description will go here</td></tr></table></div>"
+  },
+  "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-fusion-status-cs",
+  "version": "0.1.0",
+  "name": "pcdch-fusion-status-cs",
+  "title": "PCDCH Cytodifferentiation",
+  "status": "active",
+  "date": "2021-11-30T14:21:59-07:00",
+  "contact": [
+    {
+      "name": "Michael Watkins",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "michaelwatkins@uchicago.edu"
+        }
+      ]
+    }
+  ],
+  "description": "PCDCH Cytodifferentiation",
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "positive",
+      "display": "description will go here"
+    },
+    {
+      "code": "negative",
+      "display": "description will go here"
+    },
+    {
+      "code": "unknown",
+      "display": "description will go here"
+    }
+  ]
+}

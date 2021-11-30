@@ -28,6 +28,13 @@
     "name": "pcdch-dna-index-cs"
   },
   {
+    "id": "pcdch-fusion-status-cs",
+    "type": "CodeSystem",
+    "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-fusion-status-cs",
+    "version": "0.1.0",
+    "name": "pcdch-fusion-status-cs"
+  },
+  {
     "id": "pcdch-genotyping-analysis-method-cs",
     "type": "CodeSystem",
     "url": "http://example.org/fhir/pcdc/CodeSystem/pcdch-genotyping-analysis-method-cs",
@@ -131,6 +138,13 @@
     "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-dna-index-vs",
     "version": "0.1.0",
     "name": "pcdch-dna-index-vs"
+  },
+  {
+    "id": "pcdch-fusion-status-vs",
+    "type": "ValueSet",
+    "url": "http://example.org/fhir/pcdc/ValueSet/pcdch-fusion-status-vs",
+    "version": "0.1.0",
+    "name": "pcdch-fusion-status-vs"
   },
   {
     "id": "pcdch-genotyping-analysis-method-vs",

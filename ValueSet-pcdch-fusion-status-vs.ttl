@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/ValueSet/pcdch-fusion-status-vs> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pcdch-fusion-status-vs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-pcdch-fusion-status-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-fusion-status-cs</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-pcdch-fusion-status-cs.html#pcdch-fusion-status-cs-positive\">positive</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-fusion-status-cs.html#pcdch-fusion-status-cs-negative\">negative</a></td><td>description will go here</td></tr><tr><td><a href=\"CodeSystem-pcdch-fusion-status-cs.html#pcdch-fusion-status-cs-unknown\">unknown</a></td><td>description will go here</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://example.org/fhir/pcdc/ValueSet/pcdch-fusion-status-vs"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "pcdch-fusion-status-vs"];
+  fhir:ValueSet.title [ fhir:value "PCDCH Fusion Status ValueSet"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-11-30T14:21:59-07:00"^^xsd:dateTime];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Michael Watkins" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "michaelwatkins@uchicago.edu" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "PCDCH Fusion Status ValueSet"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://example.org/fhir/pcdc/CodeSystem/pcdch-fusion-status-cs" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "positive" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "negative" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "unknown" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://example.org/fhir/pcdc/ValueSet/pcdch-fusion-status-vs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

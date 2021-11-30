@@ -10,7 +10,7 @@
   "name": "pcdcig",
   "title": "PCDC Data Models",
   "status": "draft",
-  "date": "2021-11-30T12:25:27-07:00",
+  "date": "2021-11-30T14:21:59-07:00",
   "contact": [
     {
       "name": "Michael Watkins",
@@ -383,6 +383,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/pcdch-fusion-status-vs"
+        },
+        "name": "PCDCH Fusion Status ValueSet",
+        "description": "PCDCH Fusion Status ValueSet",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/pcdch-genotyping-analysis-method-vs"
         },
         "name": "PCDCH Genotyping Analysis Method ValueSet",
@@ -555,6 +569,20 @@
         },
         "name": "PCDCH DNA Indexes",
         "description": "PCDCH DNA Indexes",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/pcdch-fusion-status-cs"
+        },
+        "name": "PCDCH Cytodifferentiation",
+        "description": "PCDCH Cytodifferentiation",
         "exampleBoolean": false
       },
       {

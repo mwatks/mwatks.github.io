@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "453d662c-033a-4df2-8fdf-0fbea0175874",
+  "id" : "a6d90607-0b61-4b3c-bde2-b99aacf33c13",
   "meta" : {
-    "lastUpdated" : "2021-11-30T12:25:27.109-07:00"
+    "lastUpdated" : "2021-11-30T14:21:59.979-07:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "pcdch-mitoses-score-vs",
       "title" : "PCDCH Mitoses Scores ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -29,8 +29,8 @@
       }],
       "description" : "PCDCH Mitoses Scores ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:49d8bff6-baf5-49cc-9de1-b8a9cbe44868",
-        "timestamp" : "2021-11-30T12:25:37-07:00",
+        "identifier" : "urn:uuid:997ff1f3-545d-4605-9757-823c9e4632df",
+        "timestamp" : "2021-11-30T14:22:09-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -82,7 +82,7 @@
       "name" : "pcdch-genotyping-variant-type-vs",
       "title" : "PCDCH Genotyping Variant Type ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -92,8 +92,8 @@
       }],
       "description" : "PCDCH Genotyping Variant Type ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:432345ea-1b5b-43d7-8f38-7535983fb382",
-        "timestamp" : "2021-11-30T12:25:37-07:00",
+        "identifier" : "urn:uuid:1165a34e-86e9-457b-a354-747c1d75df7f",
+        "timestamp" : "2021-11-30T14:22:09-07:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -170,7 +170,7 @@
       "name" : "pcdch-molecular-analysis-classification-vs",
       "title" : "PCDCH Molecular Analysis Classification ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -180,8 +180,8 @@
       }],
       "description" : "PCDCH Molecular Analysis Classification ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:046b5146-7fb1-40c3-a146-499438f50235",
-        "timestamp" : "2021-11-30T12:25:37-07:00",
+        "identifier" : "urn:uuid:71251a26-b9c2-44d0-930f-195a10a00bbf",
+        "timestamp" : "2021-11-30T14:22:10-07:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -228,7 +228,7 @@
       "name" : "pcdch-karyotype-status-vs",
       "title" : "PCDCH Karyotype Status ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -238,8 +238,8 @@
       }],
       "description" : "PCDCH Karyotype Status ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:f6eb966c-2b64-4f2e-9c61-e310f76735a1",
-        "timestamp" : "2021-11-30T12:25:38-07:00",
+        "identifier" : "urn:uuid:311fb229-5995-45fe-9f89-642d8647b75c",
+        "timestamp" : "2021-11-30T14:22:11-07:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -286,7 +286,7 @@
       "name" : "pcdch-dna-index-vs",
       "title" : "PCDCH DNA Index ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -296,8 +296,8 @@
       }],
       "description" : "PCDCH DNA Index ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:7cadcd7a-1d5a-4f9f-992c-f543a235b8ef",
-        "timestamp" : "2021-11-30T12:25:38-07:00",
+        "identifier" : "urn:uuid:85794689-219b-4df5-bacd-a3ff5e075647",
+        "timestamp" : "2021-11-30T14:22:11-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -349,7 +349,7 @@
       "name" : "pcdch-cytogenetic-analysis-method-vs",
       "title" : "PCDCH Cytogenetic Analysis Method ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -359,8 +359,8 @@
       }],
       "description" : "PCDCH Cytogenetic Analysis Method ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:fd98d205-ad8e-4730-9b47-bdff1fdcd479",
-        "timestamp" : "2021-11-30T12:25:38-07:00",
+        "identifier" : "urn:uuid:ad869ea4-fd5a-4d97-a1da-de804e847044",
+        "timestamp" : "2021-11-30T14:22:11-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -412,7 +412,7 @@
       "name" : "pcdch-molecular-sample-source-vs",
       "title" : "PCDCH Molecular Sample Source ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -422,8 +422,8 @@
       }],
       "description" : "PCDCH Molecular Sample Source ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:6f9e7b7b-26e8-46b0-b709-898bd3c20a6b",
-        "timestamp" : "2021-11-30T12:25:38-07:00",
+        "identifier" : "urn:uuid:2a38cff9-b543-4717-83af-84c87a65dee5",
+        "timestamp" : "2021-11-30T14:22:11-07:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -455,6 +455,59 @@
     }
   },
   {
+    "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-fusion-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "pcdch-fusion-status-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-pcdch-fusion-status-cs.html\">PCDCH Cytodifferentiation v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-pcdch-fusion-status-cs.html\"><code>http://example.org/fhir/pcdc/CodeSystem/pcdch-fusion-status-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-fusion-status-cs-positive\"> </a><a href=\"CodeSystem-pcdch-fusion-status-cs.html#pcdch-fusion-status-cs-positive\">positive</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-fusion-status-cs-negative\"> </a><a href=\"CodeSystem-pcdch-fusion-status-cs.html#pcdch-fusion-status-cs-negative\">negative</a></td><td>description will go here</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.org-fhir-pcdc-CodeSystem-pcdch-fusion-status-cs-unknown\"> </a><a href=\"CodeSystem-pcdch-fusion-status-cs.html#pcdch-fusion-status-cs-unknown\">unknown</a></td><td>description will go here</td><td/></tr></table></div>"
+      },
+      "url" : "http://example.org/fhir/pcdc/ValueSet/pcdch-fusion-status-vs",
+      "version" : "0.1.0",
+      "name" : "pcdch-fusion-status-vs",
+      "title" : "PCDCH Fusion Status ValueSet",
+      "status" : "active",
+      "date" : "2021-11-30T14:21:59-07:00",
+      "contact" : [{
+        "name" : "Michael Watkins",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "michaelwatkins@uchicago.edu"
+        }]
+      }],
+      "description" : "PCDCH Fusion Status ValueSet",
+      "expansion" : {
+        "identifier" : "urn:uuid:5bc36269-1720-439f-bcd7-1819b96287b4",
+        "timestamp" : "2021-11-30T14:22:11-07:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-fusion-status-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-fusion-status-cs",
+          "code" : "positive",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-fusion-status-cs",
+          "code" : "negative",
+          "display" : "description will go here"
+        },
+        {
+          "system" : "http://example.org/fhir/pcdc/CodeSystem/pcdch-fusion-status-cs",
+          "code" : "unknown",
+          "display" : "description will go here"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://example.org/fhir/pcdc/ValueSet/pcdch-mutation-type-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -468,7 +521,7 @@
       "name" : "pcdch-mutation-type-vs",
       "title" : "PCDCH Mutation Type ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -478,8 +531,8 @@
       }],
       "description" : "PCDCH Mutation Type ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:12834844-467e-493a-8264-01f83e1abaf6",
-        "timestamp" : "2021-11-30T12:25:38-07:00",
+        "identifier" : "urn:uuid:90711cae-ae45-4a53-844e-c6d7a9ff12a3",
+        "timestamp" : "2021-11-30T14:22:11-07:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -526,7 +579,7 @@
       "name" : "pcdch-genotyping-analysis-method-vs",
       "title" : "PCDCH Genotyping Analysis Method ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -536,8 +589,8 @@
       }],
       "description" : "PCDCH Genotyping Analysis Method ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:8cfb67fb-8a26-4f09-954f-e3158c7e881b",
-        "timestamp" : "2021-11-30T12:25:39-07:00",
+        "identifier" : "urn:uuid:a4566039-8ac1-49e5-ac59-85e143739f2b",
+        "timestamp" : "2021-11-30T14:22:12-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -589,7 +642,7 @@
       "name" : "pcdch-translocation-status-vs",
       "title" : "PCDCH Translocation Status ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -599,8 +652,8 @@
       }],
       "description" : "PCDCH Translocation Status ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:fd0dfcd0-f85a-4545-a38e-e9356e010b19",
-        "timestamp" : "2021-11-30T12:25:39-07:00",
+        "identifier" : "urn:uuid:6f64176f-91dd-46e2-8500-83790c7b497a",
+        "timestamp" : "2021-11-30T14:22:12-07:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -647,7 +700,7 @@
       "name" : "pcdch-molecular-abnormality-result-status-vs",
       "title" : "PCDCH Molecular Abnormality Result Status ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -657,8 +710,8 @@
       }],
       "description" : "PCDCH Molecular Abnormality Result Status ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:860c0b6e-cd9d-49cc-9816-84fcae56c5bd",
-        "timestamp" : "2021-11-30T12:25:39-07:00",
+        "identifier" : "urn:uuid:cfaaa465-65cb-46af-9049-2b65e128a79e",
+        "timestamp" : "2021-11-30T14:22:12-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -710,7 +763,7 @@
       "name" : "pcdch-cytodifferentiation-vs",
       "title" : "PCDCH Cytodifferentiation ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -720,8 +773,8 @@
       }],
       "description" : "PCDCH Cytodifferentiation ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:ceb625f0-60cc-425a-b09d-04c53d4b1ff4",
-        "timestamp" : "2021-11-30T12:25:40-07:00",
+        "identifier" : "urn:uuid:920b1eaf-8cb1-48d4-b43e-7f06a325df60",
+        "timestamp" : "2021-11-30T14:22:13-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -773,7 +826,7 @@
       "name" : "pcdch-cytogenetic-variant-type-vs",
       "title" : "PCDCH Cytogenetic Variant Type ValueSet",
       "status" : "active",
-      "date" : "2021-11-30T12:25:27-07:00",
+      "date" : "2021-11-30T14:21:59-07:00",
       "contact" : [{
         "name" : "Michael Watkins",
         "telecom" : [{
@@ -783,8 +836,8 @@
       }],
       "description" : "PCDCH Cytogenetic Variant Type ValueSet",
       "expansion" : {
-        "identifier" : "urn:uuid:30df8d42-db6b-4c4b-bf66-d117b372f81a",
-        "timestamp" : "2021-11-30T12:25:40-07:00",
+        "identifier" : "urn:uuid:c04aeed7-7828-4fdd-8e70-70b67888cdcc",
+        "timestamp" : "2021-11-30T14:22:13-07:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
