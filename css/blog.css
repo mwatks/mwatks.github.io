@@ -5,6 +5,8 @@
   top: 15%;
   right: 2%;
   z-index: 1;
+  background-color: white;
+  padding: 3px;
 }
 
 .blog-header {
